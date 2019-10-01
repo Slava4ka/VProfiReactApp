@@ -1,16 +1,26 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, NavLink, Route} from 'react-router-dom';
 import Main from './components/Main/Main';
 import Registration from './components/Registration/Registration'
 
 function App() {
     return (
         <div className="App">
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <HashRouter >
+
+                <div className={"navbar"}>
+                    <nav>
+                        <NavLink to={'/main'}>Main</NavLink>
+                        <br/>
+                        <NavLink to={'/registration'}>Registration</NavLink>
+                    </nav>
+                </div>
+
                 <Route path={'/main'} render={() => (<Main/>)}/>
                 <Route path={'/registration'} render={() => (<Registration/>)}/>
-            </BrowserRouter>
+
+            </HashRouter >
         </div>
     );
 }
