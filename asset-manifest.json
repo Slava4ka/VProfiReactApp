@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/VProfiReactApp/static/css/main.37f1a0d4.chunk.css",
-    "main.js": "/VProfiReactApp/static/js/main.e4a52f98.chunk.js",
-    "main.js.map": "/VProfiReactApp/static/js/main.e4a52f98.chunk.js.map",
+    "main.js": "/VProfiReactApp/static/js/main.cf961301.chunk.js",
+    "main.js.map": "/VProfiReactApp/static/js/main.cf961301.chunk.js.map",
     "runtime-main.js": "/VProfiReactApp/static/js/runtime-main.6fc3858d.js",
     "runtime-main.js.map": "/VProfiReactApp/static/js/runtime-main.6fc3858d.js.map",
-    "static/js/2.1bcaa749.chunk.js": "/VProfiReactApp/static/js/2.1bcaa749.chunk.js",
-    "static/js/2.1bcaa749.chunk.js.map": "/VProfiReactApp/static/js/2.1bcaa749.chunk.js.map",
+    "static/js/2.9d99ae1e.chunk.js": "/VProfiReactApp/static/js/2.9d99ae1e.chunk.js",
+    "static/js/2.9d99ae1e.chunk.js.map": "/VProfiReactApp/static/js/2.9d99ae1e.chunk.js.map",
     "index.html": "/VProfiReactApp/index.html",
-    "precache-manifest.16c3346b020322763064bdb30f76fec6.js": "/VProfiReactApp/precache-manifest.16c3346b020322763064bdb30f76fec6.js",
+    "precache-manifest.149c6a330de025c4e19e375677b7a876.js": "/VProfiReactApp/precache-manifest.149c6a330de025c4e19e375677b7a876.js",
     "service-worker.js": "/VProfiReactApp/service-worker.js",
     "static/css/main.37f1a0d4.chunk.css.map": "/VProfiReactApp/static/css/main.37f1a0d4.chunk.css.map"
   }
