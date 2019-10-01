@@ -7,7 +7,7 @@ import Registration from './components/Registration/Registration'
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Route path={'/main'} render={() => (<Main/>)}/>
                 <Route path={'/registration'} render={() => (<Registration/>)}/>
             </BrowserRouter>
