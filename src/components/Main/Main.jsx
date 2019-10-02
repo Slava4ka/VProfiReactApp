@@ -1,11 +1,12 @@
 import React from 'react';
+import styles from './Main.module.css';
 
 const Main = () => {
-    return (<>
-        <h3>This is main page</h3>
-        <br/>
-        <h1>Hello world!</h1>
-    </>)
+    return (<div className={`${styles.greeting}`}>
+        <div className={`${styles.text}`}>
+            <span>Greeting on VPROFI.COM!</span>
+        </div>
+    </div>)
 };
 
 export default Main;

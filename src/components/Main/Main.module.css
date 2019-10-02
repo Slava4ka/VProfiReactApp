@@ -1,0 +1,36 @@
+.greeting {
+}
+
+.text {
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    transform: translateY(-50%);
+    font-family: 'Oswald', sans-serif;
+    line-height: 60px;
+}
+.text span {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 5px;
+    transition: 2s;
+    text-shadow: 0px 0px 0px black;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    cursor: default;
+}
+.text span:hover {
+    text-shadow: -8px 8px 0px grey;
+    transition: 0.3s;
+    top: -8px;
+    left: 8px;
+}
+.text span.space {
+    width: 20px;
+    height: 100%;
+}
