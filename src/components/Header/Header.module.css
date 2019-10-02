@@ -5,6 +5,24 @@
     display: none;
 }
 
-.bottomNavBar{
-    background-color: rgb(50,148,63);
+
+/*Top NavBar*/
+
+@media (max-width: 991px) {
+    .searchForm {
+        margin-top: 20px;
+
+    }
+
+    .geo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Bottom navBar */
+
+.bottomNavBar {
+    background-color: rgb(50, 148, 63);
 }

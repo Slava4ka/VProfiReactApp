@@ -2,15 +2,11 @@
 }
 
 .text {
-    top: 50%;
-    left: 0px;
-    width: 100%;
-    position: absolute;
+    margin: 17% 0;
     text-align: center;
-    transform: translateY(-50%);
     font-family: 'Oswald', sans-serif;
-    line-height: 60px;
 }
+
 .text span {
     color: black;
     font-size: 70px;
@@ -24,13 +20,39 @@
     left: 0px;
     cursor: default;
 }
+
 .text span:hover {
     text-shadow: -8px 8px 0px grey;
     transition: 0.3s;
     top: -8px;
     left: 8px;
 }
+
 .text span.space {
     width: 20px;
     height: 100%;
+}
+
+@media (max-width: 600px) {
+    .text span {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .text span {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .text span {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 300px) {
+    .text span {
+        font-size: 30px;
+    }
 }

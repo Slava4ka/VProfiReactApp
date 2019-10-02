@@ -4,7 +4,7 @@ import styles from './Main.module.css';
 const Main = () => {
     return (<div className={`${styles.greeting}`}>
         <div className={`${styles.text}`}>
-            <span>Greeting on VPROFI.COM!</span>
+            <span>Добро пожаловать на  VPROFI!</span>
         </div>
     </div>)
 };

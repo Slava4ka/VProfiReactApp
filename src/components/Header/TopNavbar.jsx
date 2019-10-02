@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button, Form, FormControl, Nav, Navbar} from "react-bootstrap";
+import style from "./Header.module.css";
 
 const TopNavbar = () => {
     return (
@@ -14,20 +15,20 @@ const TopNavbar = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
 
 
-                <Form inline className="mx-5 ">
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2"/>
-                    <Button variant="outline-primary">Search</Button>
+                <Form inline className={`mx-lg-5 ${style.searchForm}`}>
+                    <FormControl type="text" placeholder="Поиск" className="mr-sm-2"/>
+                    <Button variant="outline-primary">Искать</Button>
                 </Form>
 
 
-                <div className={`mr-auto`}>
+                <div className={`mr-lg-auto ${style.geo}`}>
                     <span style={{cursor: "pointer"}}><img src="geofence_5400.ico" alt="" width='25px'/>Республика Ингушетия</span>
                 </div>
 
 
                 <Nav>
-                    <Nav.Link href="#">Sign in</Nav.Link>
-                    <Nav.Link eventKey={'registration'} href="#/registration">Sign up</Nav.Link>
+                    <Nav.Link href="#">Вход</Nav.Link>
+                    <Nav.Link eventKey={'registration'} href="#/registration">Регистрация</Nav.Link>
                 </Nav>
 
             </Navbar.Collapse>
