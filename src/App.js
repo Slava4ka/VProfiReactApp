@@ -4,6 +4,9 @@ import {HashRouter, Route} from 'react-router-dom';
 import Main from './components/Main/Main';
 import Registration from './components/Registration/Registration'
 import Header from "./components/Header/Header";
+import store from './redux/redux-store';
+import {Provider} from "react-redux";
+import Test from "./components/Test/Test";
 
 function App() {
 
@@ -20,14 +23,19 @@ function App() {
     };
 
     return (
-        <div className="App">
-            <HashRouter>
-                <Header isHeaderVisible={isHeaderVisible}/>
-                <Route exact path={'/'} render={() => (<Main/>)}/>
-                <Route path={'/registration'}
-                       render={() => (<Registration hideHeader={hideHeader} showHeader={showHeader}/>)}/>
-            </HashRouter>
-        </div>
+        <HashRouter>
+            <Provider store={store}>
+                <div className="App">
+
+                    <Header isHeaderVisible={isHeaderVisible}/>
+
+                    <Route exact path={'/'} render={() => (<Main/>)}/>
+                    <Route path={'/registration'}
+                           render={() => (<Registration hideHeader={hideHeader} showHeader={showHeader}/>)}/>
+                    <Route exact path={'/test'} render={() => (<Test/>)}/>
+                </div>
+            </Provider>
+        </HashRouter>
     );
 }
 

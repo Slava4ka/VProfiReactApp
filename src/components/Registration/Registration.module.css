@@ -1,16 +1,19 @@
 .registrationPage {
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
     -ms-flex-align: center;
     -ms-flex-pack: center;
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 10%;
     padding-bottom: 40px;
     height: 100%;
+}
+
+@media (max-height: 700px) {
+    .registrationPage {
+        padding-top: 40px;
+    }
 }
 
 .formSignIn {
@@ -47,7 +50,7 @@
     border-radius: 0;
 }
 
- .formSignIn input[type="tel"] {
+.formSignIn input[type="tel"] {
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
