@@ -27,7 +27,7 @@ const TopNavbar = () => {
 
 
                 <Nav>
-                    <Nav.Link href="#">Вход</Nav.Link>
+                    <Nav.Link eventKey={'signIn'} href="#/signIn">Вход</Nav.Link>
                     <Nav.Link eventKey={'registration'} href="#/registration">Регистрация</Nav.Link>
                 </Nav>
 

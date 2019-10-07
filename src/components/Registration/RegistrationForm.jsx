@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./Registration.module.css";
 import {Field, reduxForm} from "redux-form";
-import {validate} from "../../validators/validators";
+import {validateRegistration} from "../../validators/validators";
 import {renderCheckBoxField, renderInputField} from "../common/FormsControls/FormsControls";
 
 
@@ -47,7 +47,7 @@ const RegistrationForm = ({handleSubmit, error}) => {
 
 const ReduxRegistrationForm = reduxForm({
     form: 'registration', // уникальное строговое имя (для state)
-    validate
+    validate: validateRegistration
 })(RegistrationForm);
 
 export default ReduxRegistrationForm;

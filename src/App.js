@@ -6,7 +6,7 @@ import Registration from './components/Registration/Registration'
 import Header from "./components/Header/Header";
 import store from './redux/redux-store';
 import {Provider} from "react-redux";
-import Test from "./components/Test/Test";
+import SignIn from "./components/SignIn/SignIn";
 
 function App() {
 
@@ -30,9 +30,12 @@ function App() {
                     <Header isHeaderVisible={isHeaderVisible}/>
 
                     <Route exact path={'/'} render={() => (<Main/>)}/>
+
                     <Route path={'/registration'}
                            render={() => (<Registration hideHeader={hideHeader} showHeader={showHeader}/>)}/>
-                    <Route exact path={'/test'} render={() => (<Test/>)}/>
+
+                    <Route path={'/signIn'}
+                           render={() => (<SignIn hideHeader={hideHeader} showHeader={showHeader}/>)}/>
                 </div>
             </Provider>
         </HashRouter>

@@ -1,4 +1,4 @@
-.registrationPage {
+.signInPage {
     -ms-flex-align: center;
     -ms-flex-pack: center;
     -webkit-box-align: center;
@@ -11,7 +11,7 @@
 }
 
 @media (max-height: 700px) {
-    .registrationPage {
+    .signInPage {
         padding-top: 40px;
     }
 }
@@ -30,12 +30,11 @@
 }
 
 .formSignIn input[type="password"] {
-    margin-bottom: -1px;
-    border-radius: 0;
-}
-
-.formSignIn input[type="tel"] {
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+.formSignIn button {
+    margin-top: 20%;
 }

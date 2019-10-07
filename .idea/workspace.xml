@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Test/Test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/app-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validators/validators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/TopNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TopNavbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Test/Test.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/validators.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +48,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
     </key>
   </component>
@@ -114,7 +111,7 @@
       <workItem from="1569856174659" duration="17526000" />
       <workItem from="1570012820949" duration="39997000" />
       <workItem from="1570227593951" duration="3315000" />
-      <workItem from="1570294124626" duration="22083000" />
+      <workItem from="1570294124626" duration="30885000" />
     </task>
     <servers />
   </component>

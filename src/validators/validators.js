@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const validate = values => {
+export const validateRegistration = values => {
     const errors = {};
 
     if (!values.email) {
@@ -26,11 +26,28 @@ export const validate = values => {
     if (!values.tel) {
         errors.tel = 'Required'
     } else if ((!/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7}$/i.test(values.tel))) {
-        errors.tel = 'Enter correct telephone number';
+        errors.tel = 'SignIn correct telephone number';
     }
 
     if (!values.agree) {
         errors.agree = 'Must agree'
+    }
+
+    return errors
+};
+
+export const signInValidate = values => {
+    console.log("signInValidate");
+    const errors = {};
+
+    if (!values.email) {
+        errors.email = 'Required'
+    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
+        errors.email = 'Invalid email address'
+    }
+
+    if (!values.password) {
+        errors.password = 'Required'
     }
 
     return errors

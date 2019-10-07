@@ -1,13 +1,12 @@
 import React from 'react';
 import stylesFormsControls from './FormsControls.module.css';
-import stylesRegistrationForm from '../../Registration/Registration.module.css'
 
 export const renderInputField = ({input, label, type, meta: {touched, error}}) => {
     const hasError = touched && error;
     return (
         <div>
             <input {...input} placeholder={label} type={type}
-                   className={`form-control ${stylesRegistrationForm.formControl} ${(hasError ? stylesFormsControls.error : "")}`}/>
+                   className={`form-control ${stylesFormsControls.formControl} ${(hasError ? stylesFormsControls.error : "")}`}/>
             {hasError && <span className="text-danger">{error}</span>}
         </div>
     )
