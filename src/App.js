@@ -7,6 +7,10 @@ import Header from "./components/Header/Header";
 import store from './redux/redux-store';
 import {Provider} from "react-redux";
 import SignIn from "./components/SignIn/SignIn";
+import CarouselTest from "./forTesting/Carousel/CarouselTest";
+import ToastsTesting from "./forTesting/Toasts/ToastsTesting";
+import Halloween from "./forTesting/Halloween/Halloween";
+import IndexPage from "./components/IndexPage/IndexPage";
 
 function App() {
 
@@ -36,6 +40,12 @@ function App() {
 
                     <Route path={'/signIn'}
                            render={() => (<SignIn hideHeader={hideHeader} showHeader={showHeader}/>)}/>
+
+                    {/*тестирование*/}
+                    <Route path={'/carousel'} render={() => (<CarouselTest/>)}/>
+                    <Route path={'/toasts'} render={() => (<ToastsTesting/>)}/>
+                    <Route path={'/halloween'} render={() => (<Halloween/>)}/>
+                    <Route path={'/index'} render={() => (<IndexPage/>)}/>
                 </div>
             </Provider>
         </HashRouter>

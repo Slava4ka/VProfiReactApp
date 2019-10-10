@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/advertisingTemplate_309x242.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/1525374264_7f85e7b.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/2Z9k75SIbYU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/ariana_grande.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/avatar-zabavnogo-malisha-v-ochkah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/avatar2700.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/boy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/gomer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/skvidvart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/tomInLow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatars/youloveit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/carousel_test/FirstSlide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/IndexPage/PersonMiniCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Carousel/Carousel.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Carousel/CarouselTest.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Carousel/ControlledCarouselTest.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Halloween/Halloween.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Halloween/Halloween.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Toasts/Toasts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Toasts/ToastsTesting.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/TopNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TopNavbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Test/Test.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/avatars" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,11 +63,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\avatars" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\Carousel" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\courusel_test" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -68,8 +85,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Node.js.testtingJS.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="testtingJS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="testtingJS.js" working-dir="$PROJECT_DIR$/src/forTesting">
       <method v="2" />
     </configuration>
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -94,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.testtingJS.js" />
         <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
@@ -111,7 +132,7 @@
       <workItem from="1569856174659" duration="17526000" />
       <workItem from="1570012820949" duration="39997000" />
       <workItem from="1570227593951" duration="3315000" />
-      <workItem from="1570294124626" duration="30885000" />
+      <workItem from="1570294124626" duration="78234000" />
     </task>
     <servers />
   </component>
