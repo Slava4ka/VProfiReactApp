@@ -14,7 +14,7 @@
 
     }
 
-    .geo{
+    .geo {
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -26,3 +26,34 @@
 .bottomNavBar {
     background-color: rgb(50, 148, 63);
 }
+
+.container {
+}
+
+.links {
+    height: 50px;
+}
+
+.slickCarousel {
+    height: 50px;
+}
+
+
+.bottomNavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottomNavBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.bottomNavBar li a:hover {
+    background-color: #111;
+}
+

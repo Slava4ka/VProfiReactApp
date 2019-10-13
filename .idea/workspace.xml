@@ -2,32 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/advertisingTemplate_309x242.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/1525374264_7f85e7b.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/2Z9k75SIbYU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/ariana_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/avatar-zabavnogo-malisha-v-ochkah.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/avatar2700.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/boy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/gomer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/skvidvart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/tomInLow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/unnamed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/avatars/youloveit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/carousel_test/FirstSlide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IndexPage/PersonMiniCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Carousel/Carousel.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Carousel/CarouselTest.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Carousel/ControlledCarouselTest.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Halloween/Halloween.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Halloween/Halloween.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Toasts/Toasts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Toasts/ToastsTesting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/IndexPage/draft.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Slick/Slick.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Slick/SlickForTesting.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/BottomNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/BottomNavbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IndexPage/PersonMiniCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexPage/PersonMiniCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forTesting/Toasts/ToastsTesting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/Toasts/ToastsTesting.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forTesting/testtingJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/testtingJS.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/avatars" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_test" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,15 +50,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\avatars" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\Slick" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\Carousel" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\courusel_test" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\avatars" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -114,8 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.testtingJS.js" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="Node.js.testtingJS.js" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +121,8 @@
       <workItem from="1569856174659" duration="17526000" />
       <workItem from="1570012820949" duration="39997000" />
       <workItem from="1570227593951" duration="3315000" />
-      <workItem from="1570294124626" duration="78234000" />
+      <workItem from="1570294124626" duration="92509000" />
+      <workItem from="1570915605828" duration="14085000" />
     </task>
     <servers />
   </component>

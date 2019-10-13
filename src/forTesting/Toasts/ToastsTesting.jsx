@@ -16,7 +16,6 @@ const Toasts = ({value}) => {
     )
 };
 
-// попробовать через родителя!!!!
 const ToastsTesting = () => {
 
     const [toastsList, setToastsList] = useState(false);

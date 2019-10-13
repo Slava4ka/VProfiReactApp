@@ -1,0 +1,36 @@
+const IndexPage = () => {
+    const propps = getMassOfPersonsForIndexPage();
+    console.log(propps);
+
+    return (<div className={styles.main_box}>
+        <Container fluid={true}>
+            <Row>
+                <Col lg={9} md={12} className={styles.border}>
+
+                    {
+                        propps.map(categores => (<>
+                                <span className={styles.categoryName}><h5>{categores.category}</h5></span>
+                                <div className={styles.category}>
+                                    {categores.members.map(persons => (
+                                        <PersonMiniCard
+                                            name={persons.name}
+                                            surname={persons.surname}
+                                            patronymic={persons.patronymic}
+                                            rating={persons.rating}
+                                            profession={persons.profession}
+                                            avatar={persons.avatar}
+                                        />))}
+                                </div>
+                            </>
+                        ))
+                    }
+
+                </Col>
+
+                <Col lg={3} md={12} className={`${styles.border} ${styles.advertising}`}>
+                    <img src="advertisingTemplate_309x242.PNG" alt="advertisingTemplate_309x242"/>
+                </Col>
+            </Row>
+        </Container>
+    </div>)
+};

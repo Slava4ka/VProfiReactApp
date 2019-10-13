@@ -1,18 +1,22 @@
 import React from 'react';
-import {Nav, Navbar} from "react-bootstrap";
+import {Col, Container, Nav, Navbar, Row} from "react-bootstrap";
 import style from "./Header.module.css";
+import SimpleSlider from "../../forTesting/Slick/SlickForTesting";
 
 const BottomNavbar = () => {
     return (
-        <Navbar className={`${style.bottomNavBar}`}>
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-            <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
-            </Nav>
-
-        </Navbar>
+        <div className={`${style.bottomNavBar}`}>
+            <Container fluid={true} className={style.container}>
+                <Row>
+                    <Col sm={12} md={2}>
+                        <h5>Все категории</h5>
+                    </Col>
+                    <Col sm={12} md={10}>
+                        <SimpleSlider />
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     )
 };
 export default BottomNavbar;

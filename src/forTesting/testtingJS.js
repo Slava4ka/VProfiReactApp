@@ -62,11 +62,17 @@ const getProfession = (id) => {
     return getRandomFromMass(categoryMass[id].professions)
 };
 
+function createIdForKey(str) {
+    return str.split('').reduce((prevHash, currVal) =>
+        (((prevHash << 5) - prevHash) + currVal.charCodeAt(0)) | 0, 0);
+}
+
 const createMassOfPersons = (number, id) => {
     let persons = [];
     for (let i = 0; i < number; i++) {
         const [surname, name, patronymic] = getFIO();
         persons.push({
+            id: createIdForKey(surname + "^" + name),
             surname: surname,
             name: name,
             patronymic: patronymic,
@@ -86,5 +92,15 @@ export const getMassOfPersonsForIndexPage = () => {
             members: createMassOfPersons(5, categoryId)
         })
     }
+    return mass
+};
+
+export const getMassOfCategoriesForIndexPage = () => {
+    let mass = ["Репетиторы и курсы","Мастера по ремонту","Мастера красоты","Спортивные тренеры","Автоинструкторы",
+        "Артисты","ИТ-фрилансеры","Домашний персонал","Ветеринары","Бухгалтеры и юристы","Врачи", "Ищете кого-то ещё?"];
+    /*
+    for (let categoryId = 0; categoryId < categoryMass.length; categoryId++) {
+        mass.push(getCategory(categoryId))
+    }*/
     return mass
 };

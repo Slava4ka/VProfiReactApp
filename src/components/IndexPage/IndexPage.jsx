@@ -8,17 +8,17 @@ const IndexPage = () => {
     const propps = getMassOfPersonsForIndexPage();
     console.log(propps);
 
-    return (<div className={styles.main_box}>
-        <Container fluid={true}>
-            <Row>
-                <Col lg={9} md={12} className={styles.border}>
-
-
-                    {
-                        propps.map(categores => (<>
-                                <span>{categores.category}</span>
+    const body = propps.map((categories, index) => {
+        //  реклама появляется через блок
+        if (index % 2 !== 0) {
+            return (
+                <>
+                    <Col md={9} sm={12}>
+                        <Row>
+                            <Col md={12}>
+                                <span className={styles.categoryName}><h5>{categories.category}</h5></span>
                                 <div className={styles.category}>
-                                    {categores.members.map(persons => (
+                                    {categories.members.map(persons => (
                                         <PersonMiniCard
                                             name={persons.name}
                                             surname={persons.surname}
@@ -28,31 +28,68 @@ const IndexPage = () => {
                                             avatar={persons.avatar}
                                         />))}
                                 </div>
-                            </>
-                        ))
-                    }
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col md={3} sm={12}>
+                        <Row style={{height: "100%"}}>
+                            <Col></Col>
+                        </Row>
+                    </Col>
+                </>
+            )
+        } else {
+            return (<>
+                    <Col md={9} sm={12}>
+                        <Row>
+                            <Col md={12}>
+                                <span className={styles.categoryName}><h5>{categories.category}</h5></span>
+                                <div className={styles.category}>
+                                    {categories.members.map(persons => (
+                                        <PersonMiniCard
+                                            name={persons.name}
+                                            surname={persons.surname}
+                                            patronymic={persons.patronymic}
+                                            rating={persons.rating}
+                                            profession={persons.profession}
+                                            avatar={persons.avatar}
+                                        />))}
+                                </div>
+                            </Col>
+                        </Row>
 
-                    {/*
-                        <span>{propps[0].category}</span>
-                        < div className={styles.category}>
-                    {propps[0].members.map(persons => (
-                        <PersonMiniCard
-                        name={persons.name}
-                        surname={persons.surname}
-                        patronymic={persons.patronymic}
-                        rating={persons.rating}
-                        profession={persons.profession}
-                        avatar={persons.avatar}
-                        />))}
-                        </div>
-                       */}
-                </Col>
+                    </Col>
+                    <Col md={3} sm={12}>
+                        <Row style={{height: "400px"}}>
+                            <Col className={`${styles.border} ${styles.advertising}`}>
+                                <h1>Тут</h1>
+                                <h1>Может</h1>
+                                <h1>Быть</h1>
+                                <h1>Ваша</h1>
+                                <h1>Реклама</h1>
+                                <h1 style={{
+                                    position: "absolute",
+                                    bottom: "5px",
+                                    right: "50%",
+                                    marginRight: "-100px"
+                                }}>VPROFI.RU</h1>
+                            </Col>
+                        </Row>
+                    </Col>
+                </>
+            )
+        }
+    });
 
-                <Col lg={3} md={12} className={`${styles.border} ${styles.advertising}`}>
-                    <img src="advertisingTemplate_309x242.PNG" alt="advertisingTemplate_309x242"/>
-                </Col>
+
+    return (<div className={styles.main_box}>
+        <Container fluid={true}>
+            <Row>
+                {body}
             </Row>
         </Container>
     </div>)
 };
+
+
 export default IndexPage

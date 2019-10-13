@@ -7,9 +7,11 @@ const PersonMiniCard = ({name, surname, patronymic, rating, profession, avatar})
         <Card className={styles.card}>
             <Card.Img variant="top" src={avatar}/>
             <Card.Body className={styles.cardBody}>
-                <span>{`${surname} ${name} ${patronymic}`}</span>
-                <span>{profession}</span>
-                <span>{rating}</span>
+                <span className={styles.profession}><h6>{profession}</h6></span>
+                <span className={styles.surname}>{surname}</span>
+                <span className={styles.name}>{name}</span>
+                <span className={styles.patronymic}>{patronymic}</span>
+                <span className={styles.rating}>Рейтинг: {rating}</span>
             </Card.Body>
         </Card>
     )
