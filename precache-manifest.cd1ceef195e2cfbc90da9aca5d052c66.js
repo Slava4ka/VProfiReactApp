@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f84bd58ac0b275e6edf2233ca2dc0c7f",
+    "revision": "42e1853653d85ff7fd9de4867848f4b7",
     "url": "/VProfiReactApp/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VProfiReactApp/static/css/2.c175c33d.chunk.css"
   },
   {
-    "revision": "d4f952a14235418af197",
-    "url": "/VProfiReactApp/static/css/main.99a9fa31.chunk.css"
+    "revision": "b2011e2ccb7783442344",
+    "url": "/VProfiReactApp/static/css/main.1b2fbf57.chunk.css"
   },
   {
     "revision": "ee441d4d025ac5e2f4e1",
     "url": "/VProfiReactApp/static/js/2.5ade2944.chunk.js"
   },
   {
-    "revision": "d4f952a14235418af197",
+    "revision": "b2011e2ccb7783442344",
     "url": "/VProfiReactApp/static/js/main.fbae9b50.chunk.js"
   },
   {
