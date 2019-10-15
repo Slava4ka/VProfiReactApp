@@ -1,4 +1,8 @@
-.navbar {
+.commonNavBar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .displayNone {
@@ -7,6 +11,20 @@
 
 
 /*Top NavBar*/
+.topNavBar {
+    height: 76px;
+    transition: opacity 1s ease;
+}
+
+.hide {
+    /*display: none;*/
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 0;
+    transition: height 0.5s ease 0.2s,
+    opacity 1s ease;
+}
 
 @media (max-width: 991px) {
     .searchForm {
@@ -30,23 +48,8 @@
 .container {
 }
 
-.links {
-    height: 50px;
-}
+.allCategories {
 
-.slickCarousel {
-    height: 50px;
-}
-
-
-.bottomNavBar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.bottomNavBar li a {
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;

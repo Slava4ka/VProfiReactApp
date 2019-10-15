@@ -11,7 +11,7 @@ import CarouselTest from "./forTesting/Carousel/CarouselTest";
 import ToastsTesting from "./forTesting/Toasts/ToastsTesting";
 import Halloween from "./forTesting/Halloween/Halloween";
 import IndexPage from "./components/IndexPage/IndexPage";
-import SimpleSlider from "./forTesting/Slick/SlickForTesting";
+import ScrollPage from "./forTesting/Scroll/ScrollPage";
 
 function App() {
 
@@ -47,6 +47,7 @@ function App() {
                     <Route path={'/toasts'} render={() => (<ToastsTesting/>)}/>
                     <Route path={'/halloween'} render={() => (<Halloween/>)}/>
                     <Route path={'/index'} render={() => (<IndexPage/>)}/>
+                    <Route path={'/scroll'} render={() => (<ScrollPage/>)}/>
 
                 </div>
             </Provider>

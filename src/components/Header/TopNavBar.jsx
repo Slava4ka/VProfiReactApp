@@ -2,9 +2,11 @@ import React from 'react';
 import {Button, Form, FormControl, Nav, Navbar} from "react-bootstrap";
 import style from "./Header.module.css";
 
-const TopNavbar = () => {
+const TopNavBar = ({topNavBarHide}) => {
+
     return (
-        <Navbar collapseOnSelect expand="lg" bg="white">
+        <Navbar id="topNavBar" collapseOnSelect expand="lg" bg="white"
+                className={(!topNavBarHide) ? style.hide : style.topNavBar}>
 
             <Navbar.Brand href="#">
                 <img src={"5551.png"} width={"150"} height={"50"}/>
@@ -36,4 +38,4 @@ const TopNavbar = () => {
 
     )
 };
-export default TopNavbar;
+export default TopNavBar;

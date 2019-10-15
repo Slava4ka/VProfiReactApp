@@ -1,0 +1,47 @@
+.navbar {
+    width: 100%;
+    text-align: center;
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.hide {
+    height: 0;
+    opacity: 0;
+    background-color: blueviolet;
+    transition: height 0.8s ease 0.2s,
+    opacity 0.5s ease;
+}
+
+.topNavbar {
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.bottomNavbar {
+    background-color: coral;
+    height: 100px;
+}
+
+.box {
+    margin: 100px 100px;
+    width: 300px;
+    height: 300px;
+    background-color: #65B34F;
+}
+
+.box1 {
+    margin: 100px 100px;
+    width: 300px;
+    height: 300px;
+    background-color: #FFF38C;
+}
+
+.box2 {
+    margin: 100px 100px;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}

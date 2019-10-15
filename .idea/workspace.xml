@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/IndexPage/draft.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Slick/Slick.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Slick/SlickForTesting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Scroll/ScrollPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/Scroll/ScrollPage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/BottomNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/BottomNavbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/BottomNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/BottomNavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/TopNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TopNavBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexPage/IndexPage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IndexPage/PersonMiniCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexPage/PersonMiniCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forTesting/Toasts/ToastsTesting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/Toasts/ToastsTesting.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forTesting/testtingJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/testtingJS.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +118,8 @@
       <workItem from="1570012820949" duration="39997000" />
       <workItem from="1570227593951" duration="3315000" />
       <workItem from="1570294124626" duration="92509000" />
-      <workItem from="1570915605828" duration="14085000" />
+      <workItem from="1570915605828" duration="14510000" />
+      <workItem from="1571057790520" duration="21469000" />
     </task>
     <servers />
   </component>
