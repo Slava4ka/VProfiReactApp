@@ -2,8 +2,10 @@ import React, {useEffect} from 'react';
 import style from './Registration.module.css';
 import ReduxRegistrationForm from "./RegistrationForm";
 import {NavLink} from "react-router-dom";
+import {registration, login} from "../../redux/reducers/auth-reducer";
+import {connect} from "react-redux";
 
-const Registration = ({hideHeader, showHeader}) => {
+const Registration = ({hideHeader, showHeader,registration, login, isAuth}) => {
 
 // если пользователь авторизован, то сюда он никак не дожен попасть!!!!!
 
@@ -17,6 +19,8 @@ const Registration = ({hideHeader, showHeader}) => {
     const onSubmit = (formData) => {
         console.log("Submit");
         console.log(formData);
+        registration("login", "email", "password")
+        //login("email", "password")
     };
 
 
@@ -31,4 +35,8 @@ const Registration = ({hideHeader, showHeader}) => {
     )
 };
 
-export default Registration;
+const mapStateToProps = state => ({
+    isAuth: state.auth.isAuth
+});
+
+export default connect(mapStateToProps, {registration, login})(Registration)

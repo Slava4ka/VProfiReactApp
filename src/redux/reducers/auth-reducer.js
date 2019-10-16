@@ -1,11 +1,10 @@
 import React from "react";
 import {authApi} from "../../api/api";
 
-
-const SET_USER_DATA = '/auth-reduser/SET-USER-DATA';
+const SET_USER_DATA = 'vprofiapp/auth-reduser/SET-USER-DATA';
+const TOGGLE_IS_FETCHING = "vprofiapp/auth-reduser/TOGGLE-IS-FETCHING";
 
 let initialState = {
-    userId: null,
 
     isAuth: false,
     isFetching: true
@@ -17,22 +16,54 @@ const authReducer = (state = initialState, action) => {
             return {...state, ...action.data}
         }
 
+        case TOGGLE_IS_FETCHING: {
+            return {...state, isFetching: action.isFetching}
+        }
+
         default:
             return state
 
     }
 };
 
-const setAuthUserData = (userId, isAuth) => ({type: SET_USER_DATA, data: {userId, isAuth}});
+const setAuthUserData = (isAuth) => ({type: SET_USER_DATA, data: {isAuth}});
+const setToggleFetching = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching});
 
-export const authorization = () => {
+export const registration = (login, email, password) => {
+    console.log("in registration");
+
     return (dispatch) => {
-        authApi.authMe().then(data => {
-            if (data.resultCode === 0) {
-                dispatch(setAuthUserData(data.data.id, data.data.login, true));
-            } else {
-                console.log("Error of authentication\nresultCode " + data.resultCode);
-            }
+        console.log("in registration dispatch");
+        dispatch(setToggleFetching(true));
+
+        authApi.registration(login, email, password).then(response => {
+            console.log("data from request");
+            console.log(response)
         });
+
+        dispatch(setToggleFetching(false));
     }
 };
+
+export const login = (email, password) => {
+    console.log("in login");
+    return (dispatch) => {
+        console.log("in login dispatch");
+        dispatch(setToggleFetching(true));
+
+        authApi.login(email, password).then(response => {
+            console.log("data from request");
+            console.log(response)
+        }).catch(function (error) {
+            console.log(Object.keys(error));
+            console.log(error.message);
+            console.log(error.config);
+            console.log(error.request);
+        });
+
+        dispatch(setToggleFetching(false));
+    }
+};
+
+
+export default authReducer;

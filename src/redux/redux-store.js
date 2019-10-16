@@ -1,10 +1,10 @@
 import {applyMiddleware, combineReducers, compose, createStore} from "redux";
 import thunkMiddleware from 'redux-thunk';
 import {reducer as formReducer} from 'redux-form';
-import registrationReducer from "./reducers/registration-reducer";
+import authReducer from './reducers/auth-reducer';
 
 const reducers = combineReducers({
-        registrationPage: registrationReducer,
+        auth: authReducer,
         form: formReducer
     }
 );
