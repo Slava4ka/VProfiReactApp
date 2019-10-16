@@ -4,7 +4,7 @@ import {Card} from "react-bootstrap";
 
 const PersonMiniCard = ({name, surname, patronymic, rating, profession, avatar}) => {
     return (
-        <Card className={styles.card}>
+        <Card className={`${styles.card} ${styles.noBorderRadius}`}>
             <Card.Img variant="top" src={avatar}/>
             <Card.Body className={styles.cardBody}>
                 <span className={styles.profession}><h6>{profession}</h6></span>

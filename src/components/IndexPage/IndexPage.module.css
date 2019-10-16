@@ -102,6 +102,22 @@
         margin: 10px;
         width: 40%;
     }
+
+    .noPadding {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .noBorderRadius {
+        border-radius: 0;
+    }
+
+    .advertising {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 10px 40px;
+        background-color: #ff918c;
+    }
 }
 
 @media (max-width: 345px) {
@@ -123,12 +139,12 @@
         text-align: center;
     }
 
-    .card img {
-        display: none;
+    .advertising {
+        text-align: center;
+        background-color: #ff918c;
     }
 
     .cardBody {
-        order: -1;
         margin: 1px;
         width: 40%;
     }

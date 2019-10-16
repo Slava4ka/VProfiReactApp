@@ -13,7 +13,7 @@ const IndexPage = () => {
         if (index % 2 !== 0) {
             return (
                 <>
-                    <Col md={9} sm={12}>
+                    <Col md={9} sm={12} className={styles.noPadding}>
                         <Row>
                             <Col md={12}>
                                 <span className={styles.categoryName}><h5>{categories.category}</h5></span>
@@ -40,7 +40,7 @@ const IndexPage = () => {
             )
         } else {
             return (<>
-                    <Col md={9} sm={12}>
+                    <Col md={9} sm={12} className={styles.noPadding}>
                         <Row>
                             <Col md={12}>
                                 <span className={styles.categoryName}><h5>{categories.category}</h5></span>
@@ -83,7 +83,7 @@ const IndexPage = () => {
 
 
     return (<div className={styles.main_box}>
-        <Container fluid={true}>
+        <Container fluid={true} className={styles.noPadding}>
             <Row>
                 {body}
             </Row>
