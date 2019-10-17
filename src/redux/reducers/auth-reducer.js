@@ -5,7 +5,6 @@ const SET_USER_DATA = 'vprofiapp/auth-reduser/SET-USER-DATA';
 const TOGGLE_IS_FETCHING = "vprofiapp/auth-reduser/TOGGLE-IS-FETCHING";
 
 let initialState = {
-
     isAuth: false,
     isFetching: true
 };

@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderCheckBoxField.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderInputField.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/forTextingScripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forTesting/Slick/SlickForTesting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/Slick/SlickForTesting.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/validators.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,8 +78,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.testtingJS.js">
+  <component name="RunManager" selected="Node.js.forTextingScripts.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="forTextingScripts.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="forTextingScripts.js" working-dir="$PROJECT_DIR$/src/forTesting">
       <method v="2" />
     </configuration>
     <configuration name="testtingJS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="testtingJS.js" working-dir="$PROJECT_DIR$/src/forTesting">
@@ -95,8 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
+        <item itemvalue="Node.js.forTextingScripts.js" />
         <item itemvalue="Node.js.testtingJS.js" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +132,7 @@
       <workItem from="1570294124626" duration="92509000" />
       <workItem from="1570915605828" duration="14510000" />
       <workItem from="1571057790520" duration="38959000" />
-      <workItem from="1571252215623" duration="2598000" />
+      <workItem from="1571252215623" duration="27189000" />
     </task>
     <servers />
   </component>

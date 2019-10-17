@@ -35,7 +35,14 @@
 }
 
 .formSignIn input[type="tel"] {
-    margin-bottom: 10px;
+    margin-bottom: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+.alert {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
 }

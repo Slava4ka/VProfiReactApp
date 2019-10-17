@@ -1,12 +1,13 @@
-.error{
+.error {
     border-color: red;
+    z-index: 1;
 }
 
-.checkbox{
+.checkbox {
     margin-right: 1%;
 }
 
-.formControl {
+.formControlCustom {
     position: relative;
     box-sizing: border-box;
     height: auto;
@@ -14,6 +15,32 @@
     font-size: 16px;
 }
 
-.formControl:focus {
+.formControlCustom:focus {
     z-index: 4;
+}
+
+.errorCheckbox {
+    animation: errorCheckBoxFrame 0.5s;
+}
+
+@keyframes errorCheckBoxFrame {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.2);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    75% {
+        transform: scale(1.2);
+    }
+
+    0% {
+        transform: scale(1);
+    }
 }

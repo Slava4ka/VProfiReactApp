@@ -7,7 +7,7 @@ export const renderInputField = ({input, label, type, meta: {touched, error}}) =
         <div>
             <input {...input} placeholder={label} type={type}
                    className={`form-control ${stylesFormsControls.formControl} ${(hasError ? stylesFormsControls.error : "")}`}/>
-            {hasError && <span className="text-danger">{error}</span>}
+
         </div>
     )
 };
@@ -24,3 +24,4 @@ export const renderCheckBoxField = ({input, label, type, meta: {touched, error}}
         </div>
     )
 };
+

@@ -3,7 +3,8 @@ import * as axios from 'axios';
 
 const instance = axios.create({
     withCredentials: true, // для работы с cookies
-    baseURL: 'http://localhost:9000/'
+    baseURL: 'http://localhost:9000/',
+    headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}
 });
 
 export const authApi = {

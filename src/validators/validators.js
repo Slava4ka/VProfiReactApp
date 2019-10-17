@@ -1,36 +1,38 @@
 import React from 'react';
 
+const EMPTY_FIELD = 'Необходимо заполнить все поля';
+
 export const validateRegistration = values => {
     const errors = {};
 
     if (!values.email) {
-        errors.email = 'Required'
+        errors.email = EMPTY_FIELD
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-        errors.email = 'Invalid email address'
+        errors.email = 'Неверный адрес электронной почты'
     }
 
     if (!values.password) {
-        errors.password = 'Required'
+        errors.password = EMPTY_FIELD
     } else if (!/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/i.test(values.password)) {
-        errors.password = 'Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters'
+        errors.password = 'Должен содержать не менее одной цифры, одной заглавной и строчной буквы и не менее 8 символов'
     }
 
     if (!values.repeatPassword) {
-        errors.repeatPassword = 'Required'
+        errors.repeatPassword = EMPTY_FIELD
     } else if ((!/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/i.test(values.repeatPassword))) {
-        errors.repeatPassword = 'Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters'
+        errors.repeatPassword = 'Должен содержать не менее одной цифры, одной заглавной и строчной буквы и не менее 8 символов'
     } else if ((values.password !== values.repeatPassword)) {
-        errors.repeatPassword = 'Passwords must be equals'
+        errors.repeatPassword = 'Введеные пароли должны совпадать'
     }
 
     if (!values.tel) {
-        errors.tel = 'Required'
+        errors.tel = EMPTY_FIELD
     } else if ((!/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7}$/i.test(values.tel))) {
-        errors.tel = 'SignIn correct telephone number';
+        errors.tel = 'Введите корректный номер телефона';
     }
 
     if (!values.agree) {
-        errors.agree = 'Must agree'
+        errors.agree = 'Необходимо принять пользовательское соглашение'
     }
 
     return errors
@@ -41,13 +43,13 @@ export const signInValidate = values => {
     const errors = {};
 
     if (!values.email) {
-        errors.email = 'Required'
+        errors.email = EMPTY_FIELD
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-        errors.email = 'Invalid email address'
+        errors.email = 'Неверный адрес электронной почты'
     }
 
     if (!values.password) {
-        errors.password = 'Required'
+        errors.password = EMPTY_FIELD
     }
 
     return errors

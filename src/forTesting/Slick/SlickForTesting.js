@@ -49,7 +49,7 @@ export default class SimpleSlider extends React.Component {
             <div className={styles.bodyOfSlick}>
                 <div>
                     <Slider {...settings}>
-                        {cat.map(a => (<div className={styles.category}>
+                        {cat.map((a, index) => (<div key={`navBarSlider${index}`} className={styles.category}>
                             <h6 style={{color: "white"}}>{a}</h6>
                         </div>))}
                     </Slider>
