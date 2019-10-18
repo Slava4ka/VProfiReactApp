@@ -5,7 +5,8 @@ import {addErrorToStack, removeErrorFromStack} from "../../../redux/reducers/reg
 
 const reduxRenderInputField = ({input, label, type, meta: {touched, error}, addErrorToStack, removeErrorFromStack}) => {
     const hasError = touched && error;
-    console.log(`error ${label} ${type} - ${hasError}`);
+
+    // console.log(`error ${label} ${type} - ${hasError}`);
 
     if (hasError) {
         addErrorToStack({[type]: hasError})

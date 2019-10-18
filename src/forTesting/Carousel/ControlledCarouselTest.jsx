@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
 import {Carousel} from "react-bootstrap";
-import styles from './Carousel.module.css';
-
 
 function ControlledCarouselTest() {
     const [index, setIndex] = useState(0);

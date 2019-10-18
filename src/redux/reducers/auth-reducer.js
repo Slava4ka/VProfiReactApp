@@ -1,4 +1,3 @@
-import React from "react";
 import {authApi} from "../../api/api";
 
 const SET_USER_DATA = 'vprofiapp/auth-reduser/SET-USER-DATA';
@@ -25,7 +24,7 @@ const authReducer = (state = initialState, action) => {
     }
 };
 
-const setAuthUserData = (isAuth) => ({type: SET_USER_DATA, data: {isAuth}});
+// const setAuthUserData = (isAuth) => ({type: SET_USER_DATA, data: {isAuth}});
 const setToggleFetching = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching});
 
 export const registration = (login, email, password) => {
@@ -63,6 +62,5 @@ export const login = (email, password) => {
         dispatch(setToggleFetching(false));
     }
 };
-
 
 export default authReducer;

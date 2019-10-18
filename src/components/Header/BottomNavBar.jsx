@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Container, Nav, Navbar, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import style from "./Header.module.css";
 import SimpleSlider from "../../forTesting/Slick/SlickForTesting";
 

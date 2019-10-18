@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderCheckBoxField.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderInputField.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/forTextingScripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/BottomNavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/BottomNavBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forTesting/Slick/SlickForTesting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/Slick/SlickForTesting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/TopNavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TopNavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderInputField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderInputField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forTesting/Toasts/ToastsTesting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/Toasts/ToastsTesting.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/validators.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,9 +103,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Node.js.forTextingScripts.js" />
         <item itemvalue="Node.js.testtingJS.js" />
-        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +125,8 @@
       <workItem from="1570294124626" duration="92509000" />
       <workItem from="1570915605828" duration="14510000" />
       <workItem from="1571057790520" duration="38959000" />
-      <workItem from="1571252215623" duration="27189000" />
+      <workItem from="1571252215623" duration="27934000" />
+      <workItem from="1571422432805" duration="1188000" />
     </task>
     <servers />
   </component>

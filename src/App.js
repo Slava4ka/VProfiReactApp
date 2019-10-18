@@ -16,7 +16,10 @@ import ScrollPage from "./forTesting/Scroll/ScrollPage";
 function App() {
 
     const [isHeaderVisible, setIsHeaderVisible] = useState(true);
-    console.log(isHeaderVisible);
+
+    /*
+    console.log("isHeaderVisible "+ isHeaderVisible);
+    */
 
     const hideHeader = () => {
         setIsHeaderVisible(false)

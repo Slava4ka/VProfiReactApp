@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {Button, Col, Row, Toast} from "react-bootstrap";
 import styles from './Toasts.module.css'
 

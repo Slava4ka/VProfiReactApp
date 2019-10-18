@@ -12,8 +12,10 @@ const Header = ({isHeaderVisible}) => {
             let navbarSize = document.getElementById('commonNavBar').offsetHeight;
             let scrollTop = document.documentElement.scrollTop;
 
-            //    console.log("navbarSize " + navbarSize + "px");
-            //   console.log("scrollTop " + scrollTop);
+            /*
+            console.log("navbarSize " + navbarSize + "px");
+            console.log("scrollTop " + scrollTop);
+            */
 
             if (scrollTop > navbarSize) {
                 setTopNavBarHide(false)
