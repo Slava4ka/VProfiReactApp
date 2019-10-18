@@ -24,7 +24,7 @@ const SignIn = ({hideHeader, showHeader, errorsFromInput}) => {
 
     return (<div className={`text-center ${styles.signInPage}`}>
             <NavLink to={'/'}>
-                <img className="mb-5" src="5551.png" alt="" width="300px" height="100px"/>
+                <img className="mt-5 mb-3" src="5551.png" alt="" width="300px" height="100px"/>
             </NavLink>
 
             <ReduxSignInForm onSubmit={onSubmit}/>

@@ -28,7 +28,7 @@ const Registration = ({hideHeader, showHeader, registration, login, errorsFromIn
 
     return (<div className={`text-center ${style.registrationPage}`}>
             <NavLink to={'/'}>
-                <img className="mb-5" src="5551.png" alt="" width="300px" height="100px"/>
+                <img className="mt-4 mb-3" src="5551.png" alt="" width="300px" height="100px"/>
             </NavLink>
             <ReduxRegistrationForm onSubmit={onSubmit}/>
             <p className="mt-5 mb-3 text-muted">@VPROFI.RU 2019 All rights reserved </p>
