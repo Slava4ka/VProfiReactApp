@@ -51,7 +51,6 @@ function App() {
                     <Route path={'/halloween'} render={() => (<Halloween/>)}/>
                     <Route path={'/index'} render={() => (<IndexPage/>)}/>
                     <Route path={'/scroll'} render={() => (<ScrollPage/>)}/>
-
                 </div>
             </Provider>
         </HashRouter>

@@ -29,6 +29,7 @@ const RegistrationForm = ({handleSubmit, error}) => {
 
 
             <Field type="tel" name="tel" component={reduxRenderInputField}
+                   normalize={normalizePhone}
                    id="telInput" className={`form-control ${style.formControl}`}
                    label="Номер телефона" required=""/>
 
@@ -46,9 +47,54 @@ const RegistrationForm = ({handleSubmit, error}) => {
     )
 };
 
+const normalizePhone = (value, previousValue) => {
+    if (!value) {
+        return value
+    }
+
+    const onlyNums = value.replace(/[^\d]/g, '');
+
+    if (!previousValue || value.length > previousValue.length) {
+        // typing forward
+        if (onlyNums.length === 2) {
+            console.log("onlyNums.length === 3 send " + onlyNums.slice(0, 1) + '(' + onlyNums.slice(2));
+            return '+' + onlyNums.slice(0, 1) + '(' + onlyNums.slice(1)
+        }
+        if (onlyNums.length === 4) {
+            return '+' + onlyNums.slice(0, 1) + '(' + onlyNums.slice(1, 4) + ')'
+        }
+
+        if (onlyNums.length === 8) {
+            return '+' + onlyNums.slice(0, 1) + '(' + onlyNums.slice(1, 4) + ')' + onlyNums.slice(4, 7) + '-' + onlyNums.slice(7)
+        }
+
+        if (onlyNums.length === 10) {
+            console.log("===10");
+            return '+' + onlyNums.slice(0, 1) + '(' + onlyNums.slice(1, 4) + ')' + onlyNums.slice(4, 7) + '-' +
+                onlyNums.slice(7, 9) + '-' + onlyNums.slice(9)
+        }
+    }
+    if (onlyNums.length <= 2) {
+        return '+' + onlyNums
+    }
+    if (onlyNums.length <= 4) {
+        return '+' + onlyNums.slice(0, 1) + '(' + onlyNums.slice(1)
+    }
+    if (onlyNums.length <= 8) {
+        return '+' + onlyNums.slice(0, 1) + '(' + onlyNums.slice(1, 4) + ')' + onlyNums.slice(4)
+    }
+    if (onlyNums.length <= 10) {
+        return '+' + onlyNums.slice(0, 1) + '(' + onlyNums.slice(1, 4) + ')' + onlyNums.slice(4, 7) + '-' + onlyNums.slice(7)
+    }
+    return '+' + onlyNums.slice(0, 1) + '(' + onlyNums.slice(1, 4) + ')' + onlyNums.slice(4, 7) + '-' +
+        onlyNums.slice(7, 9) + '-' + onlyNums.slice(9, 11)
+
+};
+
 const ReduxRegistrationForm = reduxForm({
     form: 'registration', // уникальное строговое имя (для state)
-    validate: validateRegistration
+    validate: validateRegistration,
+    initialValues: {telNumber: normalizePhone}
 })(RegistrationForm);
 
 export default ReduxRegistrationForm;

@@ -25,7 +25,7 @@ export const validateRegistration = values => {
 
     if (!values.tel) {
         errors.tel = EMPTY_FIELD
-    } else if ((!/^((8|\+7)[-]?)?(\(?\d{3}\)?[-]?)?[\d\- ]{7}$/i.test(values.tel))) {
+    } else if ((!/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{8,10}$/i.test(values.tel))) {
         errors.tel = 'Введите корректный номер телефона';
     }
 

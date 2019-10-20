@@ -27,14 +27,14 @@ const authReducer = (state = initialState, action) => {
 // const setAuthUserData = (isAuth) => ({type: SET_USER_DATA, data: {isAuth}});
 const setToggleFetching = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching});
 
-export const registration = (login, email, password) => {
+export const registration = (telephone, email, password) => {
     console.log("in registration");
-
+    const legalTelephoneNumber = telephone.replace(/[^\d]/g, '');
     return (dispatch) => {
         console.log("in registration dispatch");
         dispatch(setToggleFetching(true));
 
-        authApi.registration(login, email, password).then(response => {
+        authApi.registration(legalTelephoneNumber, email, password).then(response => {
             console.log("data from request");
             console.log(response)
         });
