@@ -46,3 +46,12 @@
     margin-bottom: 0;
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    .alert {
+        top: 0;
+        bottom: auto;
+        margin-bottom: 40px;
+        z-index: 5;
+    }
+}

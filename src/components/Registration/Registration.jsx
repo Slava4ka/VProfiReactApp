@@ -21,7 +21,7 @@ const Registration = ({hideHeader, showHeader, registration, login, errorsFromIn
         console.log("!!!!!!!!!!!!Submit!!!!!!!!!!!!!!!!!!!!");
         alert('Submit success');
         console.log(formData);
-        //registration("login", "email", "password")
+        registration("login", "email", "password")
         //login("email", "password")
     };
 
