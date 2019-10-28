@@ -3,7 +3,6 @@ const REMOVE_ERROR_FROM_ERRORS_STACK = "vprofiapp/registration-reducer/REMOVE-ER
 
 let initialState = {
     errorsStack: [],
-
     errors: []
 };
 

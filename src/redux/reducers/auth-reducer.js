@@ -1,11 +1,12 @@
 import {authApi} from "../../api/api";
+import {stopSubmit} from "redux-form";
 
 const SET_USER_DATA = 'vprofiapp/auth-reduser/SET-USER-DATA';
 const TOGGLE_IS_FETCHING = "vprofiapp/auth-reduser/TOGGLE-IS-FETCHING";
 
 let initialState = {
     isAuth: false,
-    isFetching: true
+    isFetching: false
 };
 
 const authReducer = (state = initialState, action) => {
@@ -28,18 +29,27 @@ const authReducer = (state = initialState, action) => {
 const setToggleFetching = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching});
 
 export const registration = (telephone, email, password) => {
-    console.log("in registration");
+    console.log("registration");
     const legalTelephoneNumber = telephone.replace(/[^\d]/g, '');
     return (dispatch) => {
-        console.log("in registration dispatch");
         dispatch(setToggleFetching(true));
 
         authApi.registration(legalTelephoneNumber, email, password).then(response => {
-            console.log("data from request");
-            console.log(response)
-        });
 
-        dispatch(setToggleFetching(false));
+            if (response.status === 204) {
+                console.log("Регистрация прошла успешно");
+            } else {
+                console.log(response)
+            }
+        }).catch(error => {
+
+            console.log(error.response);
+            console.log("status is " + error.response.status);
+
+            const message = error.response.data ? `code ${error.response.data.code} - ${error.response.data.message}` : 'Some error';
+            dispatch(stopSubmit('registration', {_error: message}));
+
+        }).finally(() => dispatch(setToggleFetching(false)));
     }
 };
 

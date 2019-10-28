@@ -1,7 +1,7 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import style from "./Header.module.css";
-import SimpleSlider from "../../forTesting/Slick/SlickForTesting";
+import SimpleSlider from "../../forTesting/Slick/SimpleSlider";
 
 const BottomNavBar = () => {
     return (
