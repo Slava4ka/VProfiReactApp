@@ -1,5 +1,5 @@
-const ADD_ERROR_TO_ERRORS_STACK = "vprofiapp/registration-reducer/ADD-ERROR-TO-ERRORS-STACK";
-const REMOVE_ERROR_FROM_ERRORS_STACK = "vprofiapp/registration-reducer/REMOVE-ERROR-FROM-ERRORS-STACK";
+const ADD_ERROR_TO_ERRORS_STACK = "vprofiApp/registration-reducer/ADD-ERROR-TO-ERRORS-STACK";
+const REMOVE_ERROR_FROM_ERRORS_STACK = "vprofiApp/registration-reducer/REMOVE-ERROR-FROM-ERRORS-STACK";
 
 let initialState = {
     errorsStack: [],

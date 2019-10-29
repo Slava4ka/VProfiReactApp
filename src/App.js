@@ -1,60 +1,75 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
-import {HashRouter, Route} from 'react-router-dom';
+import {HashRouter, Route, withRouter} from 'react-router-dom';
 import Main from './components/Main/Main';
 import Registration from './components/Registration/Registration'
 import Header from "./components/Header/Header";
 import store from './redux/redux-store';
-import {Provider} from "react-redux";
+import {connect, Provider} from "react-redux";
 import SignIn from "./components/SignIn/SignIn";
 import CarouselTest from "./forTesting/Carousel/CarouselTest";
 import ToastsTesting from "./forTesting/Toasts/ToastsTesting";
 import Halloween from "./forTesting/Halloween/Halloween";
 import IndexPage from "./components/IndexPage/IndexPage";
 import ScrollPage from "./forTesting/Scroll/ScrollPage";
+import {compose} from "redux";
+import {initializeApp} from "./redux/reducers/app-reducer";
 
-function App() {
+function App({initializeApp}) {
 
     const [isHeaderVisible, setIsHeaderVisible] = useState(true);
 
-    /*
-    console.log("isHeaderVisible "+ isHeaderVisible);
-    */
+    useEffect(() => {
+        initializeApp()
+    });
+
+    // console.log("isHeaderVisible "+ isHeaderVisible);
 
     const hideHeader = () => {
         setIsHeaderVisible(false)
     };
-
 
     const showHeader = () => {
         setIsHeaderVisible(true)
     };
 
     return (
-        <HashRouter>
-            <Provider store={store}>
-                <div className="App">
+        <div className="App">
 
-                    <Header isHeaderVisible={isHeaderVisible}/>
+            <Header isHeaderVisible={isHeaderVisible}/>
 
-                    <Route exact path={'/'} render={() => (<Main/>)}/>
+            <Route exact path={'/'} render={() => (<Main/>)}/>
 
-                    <Route path={'/registration'}
-                           render={() => (<Registration hideHeader={hideHeader} showHeader={showHeader}/>)}/>
+            <Route path={'/registration'}
+                   render={() => (<Registration hideHeader={hideHeader} showHeader={showHeader}/>)}/>
 
-                    <Route path={'/signIn'}
-                           render={() => (<SignIn hideHeader={hideHeader} showHeader={showHeader}/>)}/>
+            <Route path={'/signIn'}
+                   render={() => (<SignIn hideHeader={hideHeader} showHeader={showHeader}/>)}/>
 
-                    {/*тестирование*/}
-                    <Route path={'/carousel'} render={() => (<CarouselTest/>)}/>
-                    <Route path={'/toasts'} render={() => (<ToastsTesting/>)}/>
-                    <Route path={'/halloween'} render={() => (<Halloween/>)}/>
-                    <Route path={'/index'} render={() => (<IndexPage/>)}/>
-                    <Route path={'/scroll'} render={() => (<ScrollPage/>)}/>
-                </div>
-            </Provider>
-        </HashRouter>
+            {/*тестирование*/}
+            <Route path={'/carousel'} render={() => (<CarouselTest/>)}/>
+            <Route path={'/toasts'} render={() => (<ToastsTesting/>)}/>
+            <Route path={'/halloween'} render={() => (<Halloween/>)}/>
+            <Route path={'/index'} render={() => (<IndexPage/>)}/>
+            <Route path={'/scroll'} render={() => (<ScrollPage/>)}/>
+        </div>
     );
 }
 
-export default App;
+const mapStateToProps = (state) => ({});
+
+const AppContainer = compose(withRouter,
+    (connect(mapStateToProps, {initializeApp})))(App);
+
+
+const AppDone = () => {
+    return (
+        <HashRouter>
+            <Provider store={store}>
+                <AppContainer/>
+            </Provider>
+        </HashRouter>
+    )
+};
+
+export default AppDone

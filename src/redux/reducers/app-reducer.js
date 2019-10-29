@@ -1,7 +1,7 @@
 import React from "react";
-import {getAuthUserData} from "./auth-reducer";
+import {getAuthUserStatus} from "./auth-reducer";
 
-const INITIALIZED_SUCCESS = 'vprofiApp/app-reduser/INITIALIZED-SUCCESS';
+const INITIALIZED_SUCCESS = 'vprofiApp/app-reducer/INITIALIZED-SUCCESS';
 
 let initialState = {
     initialized: false
@@ -23,7 +23,7 @@ const appReducer = (state = initialState, action) => {
 export const initializedSuccess = () => ({type: INITIALIZED_SUCCESS});
 
 export const initializeApp = () => (dispatch) => {
-    let promise = dispatch(getAuthUserData());
+    let promise = dispatch(getAuthUserStatus());
 
     Promise.all([promise])
         .then(() => {

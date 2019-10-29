@@ -1,9 +1,9 @@
 import {authApi} from "../../api/api";
 import {stopSubmit} from "redux-form";
 
-const SET_USER_DATA = 'vprofiApp/auth-reducer/SET-USER-DATA';
-const SET_IS_AUTH = 'vprofiApp/auth-reducer/SET-IS-AUTH';
-const TOGGLE_IS_FETCHING = "vprofiApp/auth-reducer/TOGGLE-IS-FETCHING";
+const SET_USER_DATA = 'vprofiapp/auth-reduser/SET-USER-DATA';
+const SET_IS_AUTH = 'vprofiapp/auth-reduser/SET-IS-AUTH';
+const TOGGLE_IS_FETCHING = "vprofiapp/auth-reduser/TOGGLE-IS-FETCHING";
 
 let initialState = {
     isAuth: false,
@@ -26,16 +26,15 @@ const authReducer = (state = initialState, action) => {
 
         default:
             return state
+
     }
 };
 
-const setAuthUserStatus = (isAuth = true) => ({type: SET_IS_AUTH, isAuth});
+const setAuthUserInfo = () => ({type: SET_IS_AUTH, isAuth: true});
 const setToggleFetching = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching});
 
 export const registration = (telephone, email, password) => {
-
     console.log("registration");
-
     const legalTelephoneNumber = telephone.replace(/[^\d]/g, '');
     return (dispatch) => {
         dispatch(setToggleFetching(true));
@@ -43,7 +42,7 @@ export const registration = (telephone, email, password) => {
         authApi.registration(legalTelephoneNumber, email, password).then(response => {
 
             if (response.status === 204) {
-                console.log("Registration completed successfully");
+                console.log("Регистрация прошла успешно");
             } else {
                 console.log(response)
             }
@@ -59,18 +58,16 @@ export const registration = (telephone, email, password) => {
     }
 };
 
-export const getAuthUserStatus = () => {
-    console.log("getAuthUserStatus");
+export const getAuthUserInfo = () => {
+    console.log("getAuthUserInfo");
     return (dispatch) => {
         authApi.checkAuth().then(response => {
-            if(response.status === 204){
-                dispatch(setAuthUserStatus());
-                console.log("аутентификация выполнена");
-            }
+            console.log(response);
+            dispatch(setAuthUserInfo())
         }).catch(error => {
-            setAuthUserStatus(false);
-            console.log(error.response.status === 401 ? "аутентификация не выполнена"
-                : `error code is ${error.response.status}`);
+            console.log("error in getAuthUserInfo");
+            console.log(JSON.stringify(error));
+            console.log(error.response.status);
         })
     }
 };

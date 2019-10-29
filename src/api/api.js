@@ -8,12 +8,16 @@ const instance = axios.create({
 });
 
 export const authApi = {
+
     registration(phone, email, password) {
-        console.log("in api");
-        console.log({phone, email, password});
         return instance.post('api/account/registration', {phone, email, password});
     },
 
+    checkAuth() {
+        return instance.get('/api/test');
+    }
+
+    /*
     // with cookie
     authMe() {
         return instance.get('', {withCredentials: true}).then(response => {
@@ -26,6 +30,8 @@ export const authApi = {
     },
 
     loginOut() {
-        return instance.delete(`auth/login`);
+        return instance.get(`api/account/logout`);
     }
+    */
+
 };

@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/preloaders/30.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/dirty_code/Description" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/dirty_code/reducers/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/BottomNavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/BottomNavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderCheckBoxField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderCheckBoxField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderInputField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderInputField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forTesting/Slick/SlickForTesting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/Slick/SimpleSlider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/app-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/preholder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/forTesting/dirty_code/reducers" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,17 +44,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\preholder" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\avatars" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\Slick" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\Carousel" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\courusel_test" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\dirty_code\reducers" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\preholder" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\avatars" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,7 +130,8 @@
       <workItem from="1571576153142" duration="29871000" />
       <workItem from="1571822677954" duration="244000" />
       <workItem from="1572185010176" duration="13538000" />
-      <workItem from="1572260698652" duration="7570000" />
+      <workItem from="1572260698652" duration="13272000" />
+      <workItem from="1572365736262" duration="7352000" />
     </task>
     <servers />
   </component>
