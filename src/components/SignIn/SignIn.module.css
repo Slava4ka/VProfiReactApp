@@ -23,7 +23,7 @@
     margin: 0 auto;
 }
 
-.formSignIn input[type="email"] {
+.formSignIn input[type="emailOrTelephoneNumber"] {
     margin-bottom: -1px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;

@@ -37,18 +37,25 @@ export const validateRegistration = values => {
 };
 
 export const signInValidate = values => {
-    console.log("signInValidate");
-    const errors = {};
+        console.log("signInValidate");
+        const errors = {};
 
-    if (!values.email) {
-        errors.email = EMPTY_FIELD
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-        errors.email = 'Неверный адрес электронной почты'
-    }
+        if (!values.emailOrTelephoneNumber) {
+            errors.emailOrTelephoneNumber = EMPTY_FIELD;
+        } else if ((/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{8,12}$/i.test(values.emailOrTelephoneNumber))) {
+            console.log(values.emailOrTelephoneNumber);
+            const validNumber = values.emailOrTelephoneNumber.replace(/[^\d]/g, '');
+            if (11 !== validNumber.length) {
+                errors.emailOrTelephoneNumber = "Неверный номер телефона";
+            }
+        } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.emailOrTelephoneNumber)) {
+            console.log(values.emailOrTelephoneNumber);
+            errors.emailOrTelephoneNumber = "Неверный номер телефона или адрес электронной почты";
+        }
 
-    if (!values.password) {
-        errors.password = EMPTY_FIELD
-    }
+        if (!values.password) {
+            errors.password = EMPTY_FIELD
+        }
 
-    return errors
-};
+        return errors
+    };

@@ -1,8 +1,21 @@
 import React from 'react';
 import {Button, Form, FormControl, Nav, Navbar} from "react-bootstrap";
 import style from "./Header.module.css";
+import {connect} from "react-redux";
+import {logOut} from "../../redux/reducers/auth-reducer";
 
-const TopNavBar = ({topNavBarHide}) => {
+const TopNavBar = ({topNavBarHide, isAuth, logOut}) => {
+
+    const globalActions = isAuth ?
+        <Nav>
+            <Nav.Link eventKey={'MyProfile'} href="#/myProfile">Моя анкета</Nav.Link>
+            <Button variant="secondary" onClick={() => logOut()}>Выход</Button>
+        </Nav>
+        :
+        <Nav>
+            <Nav.Link eventKey={'signIn'} href="#/signIn">Вход</Nav.Link>
+            <Nav.Link eventKey={'registration'} href="#/registration">Регистрация</Nav.Link>
+        </Nav>;
 
     return (
         <Navbar id="topNavBar" collapseOnSelect expand="lg" bg="white"
@@ -24,18 +37,21 @@ const TopNavBar = ({topNavBarHide}) => {
 
 
                 <div className={`mr-lg-auto ${style.geo}`}>
-                    <span style={{cursor: "pointer"}}><img src="geofence_5400.ico" alt="" width='25px'/>Республика Ингушетия</span>
+                    <span style={{cursor: "pointer"}}><img src="geofence_5400.ico" alt="" width='25px'/>
+                    Республика Ингушетия
+                    </span>
                 </div>
 
-
-                <Nav>
-                    <Nav.Link eventKey={'signIn'} href="#/signIn">Вход</Nav.Link>
-                    <Nav.Link eventKey={'registration'} href="#/registration">Регистрация</Nav.Link>
-                </Nav>
+                {globalActions}
 
             </Navbar.Collapse>
         </Navbar>
 
     )
 };
-export default TopNavBar;
+
+const mapStateToProps = (state) => ({
+    isAuth: state.auth.isAuth,
+});
+
+export default connect(mapStateToProps, {logOut})(TopNavBar);

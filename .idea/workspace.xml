@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/forTesting/dirty_code/Description" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/dirty_code/reducers/auth-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/preloaders/787.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/InitialPreloader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/app-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/TopNavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TopNavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forTesting/forTextingScripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/forTextingScripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/validators.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -33,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/forTesting/dirty_code/reducers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_test" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +59,7 @@
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\preloaders" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\dirty_code\reducers" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\preholder" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\avatars" />
@@ -102,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="Node.js.forTextingScripts.js" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Node.js.testtingJS.js" />
       </list>
     </recent_temporary>
@@ -131,7 +139,7 @@
       <workItem from="1571822677954" duration="244000" />
       <workItem from="1572185010176" duration="13538000" />
       <workItem from="1572260698652" duration="13272000" />
-      <workItem from="1572365736262" duration="7352000" />
+      <workItem from="1572365736262" duration="33637000" />
     </task>
     <servers />
   </component>

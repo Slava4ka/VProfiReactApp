@@ -13,25 +13,29 @@ export const authApi = {
         return instance.post('api/account/registration', {phone, email, password});
     },
 
+    /**
+     * using cookie
+     * @returns {*}
+     */
+
     checkAuth() {
         return instance.get('/api/test');
-    }
-
-    /*
-    // with cookie
-    authMe() {
-        return instance.get('', {withCredentials: true}).then(response => {
-            return response.data
-        });
     },
 
-    login(email, password) {
-        return instance.post(`api/account/login`, {email, password});
+    /**
+     * using cookie
+     * @param userIdentifier (email or telephone number)
+     * @param password
+     * @returns {Q.Promise<any> | void | Promise<AxiosResponse<T>> | Observable<AjaxResponse> | any}
+     */
+
+    login(userIdentifier, password) {
+        return instance.post(`api/account/login`, {login: userIdentifier, password});
     },
 
     loginOut() {
         return instance.get(`api/account/logout`);
     }
-    */
+
 
 };

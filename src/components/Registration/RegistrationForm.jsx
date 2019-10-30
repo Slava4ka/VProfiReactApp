@@ -10,9 +10,7 @@ import {addErrorToStack, removeErrorFromStack} from "../../redux/reducers/regist
 
 const RegistrationForm = ({handleSubmit, error, disabled, addErrorToStack, removeErrorFromStack}) => {
 
-
     if (error) {
-
         console.log("error:\n---------------------");
         console.log(error);
         console.log("---------------------");

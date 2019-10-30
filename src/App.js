@@ -14,14 +14,15 @@ import IndexPage from "./components/IndexPage/IndexPage";
 import ScrollPage from "./forTesting/Scroll/ScrollPage";
 import {compose} from "redux";
 import {initializeApp} from "./redux/reducers/app-reducer";
+import InitialPreloader from "./components/common/Preloader/InitialPreloader";
 
-function App({initializeApp}) {
+function App({initializeApp, initialized}) {
 
     const [isHeaderVisible, setIsHeaderVisible] = useState(true);
 
     useEffect(() => {
         initializeApp()
-    });
+    }, []);
 
     // console.log("isHeaderVisible "+ isHeaderVisible);
 
@@ -35,28 +36,35 @@ function App({initializeApp}) {
 
     return (
         <div className="App">
+            {initialized ?
+                <>
+                    <Header isHeaderVisible={isHeaderVisible}/>
 
-            <Header isHeaderVisible={isHeaderVisible}/>
+                    <Route exact path={'/'} render={() => (<Main/>)}/>
 
-            <Route exact path={'/'} render={() => (<Main/>)}/>
+                    <Route path={'/registration'}
+                           render={() => (<Registration hideHeader={hideHeader} showHeader={showHeader}/>)}/>
 
-            <Route path={'/registration'}
-                   render={() => (<Registration hideHeader={hideHeader} showHeader={showHeader}/>)}/>
+                    <Route path={'/signIn'}
+                           render={() => (<SignIn hideHeader={hideHeader} showHeader={showHeader}/>)}/>
 
-            <Route path={'/signIn'}
-                   render={() => (<SignIn hideHeader={hideHeader} showHeader={showHeader}/>)}/>
-
-            {/*тестирование*/}
-            <Route path={'/carousel'} render={() => (<CarouselTest/>)}/>
-            <Route path={'/toasts'} render={() => (<ToastsTesting/>)}/>
-            <Route path={'/halloween'} render={() => (<Halloween/>)}/>
-            <Route path={'/index'} render={() => (<IndexPage/>)}/>
-            <Route path={'/scroll'} render={() => (<ScrollPage/>)}/>
+                    {/*тестирование*/}
+                    <Route path={'/carousel'} render={() => (<CarouselTest/>)}/>
+                    <Route path={'/toasts'} render={() => (<ToastsTesting/>)}/>
+                    <Route path={'/halloween'} render={() => (<Halloween/>)}/>
+                    <Route path={'/index'} render={() => (<IndexPage/>)}/>
+                    <Route path={'/scroll'} render={() => (<ScrollPage/>)}/>
+                </>
+                :
+                <InitialPreloader/>
+            }
         </div>
     );
 }
 
-const mapStateToProps = (state) => ({});
+const mapStateToProps = (state) => ({
+    initialized: state.app.initialized
+});
 
 const AppContainer = compose(withRouter,
     (connect(mapStateToProps, {initializeApp})))(App);
