@@ -5,7 +5,7 @@ import {validateRegistration} from "../../validators/validators";
 import reduxRenderInputField from "../common/FormsControls/reduxRenderInputField";
 import reduxRenderCheckBoxField from "../common/FormsControls/reduxRenderCheckBoxField";
 import {connect} from "react-redux";
-import {addErrorToStack, removeErrorFromStack} from "../../redux/reducers/registration-reducer";
+import {addErrorToStack, removeErrorFromStack} from "../../redux/reducers/signUpAndIn-reducer";
 
 
 const RegistrationForm = ({handleSubmit, error, disabled, addErrorToStack, removeErrorFromStack}) => {

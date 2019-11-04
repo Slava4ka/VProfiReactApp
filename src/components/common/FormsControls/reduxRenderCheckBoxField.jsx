@@ -1,7 +1,7 @@
 import React from 'react';
 import stylesFormsControls from './FormsControls.module.css';
 import {connect} from "react-redux";
-import {addErrorToStack, removeErrorFromStack} from "../../../redux/reducers/registration-reducer";
+import {addErrorToStack, removeErrorFromStack} from "../../../redux/reducers/signUpAndIn-reducer";
 
 const reduxRenderCheckBoxField = ({
                                       input, label, type,

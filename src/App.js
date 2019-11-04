@@ -15,14 +15,19 @@ import ScrollPage from "./forTesting/Scroll/ScrollPage";
 import {compose} from "redux";
 import {initializeApp} from "./redux/reducers/app-reducer";
 import InitialPreloader from "./components/common/Preloader/InitialPreloader";
+import {SuccessAlert} from "./components/common/Alerts/Alerts";
+import {setStatusToNewUserAlert} from "./redux/reducers/signUpAndIn-reducer";
 
-function App({initializeApp, initialized}) {
+function App({initialized, newUserAlert, setStatusToNewUserAlert}) {
 
     const [isHeaderVisible, setIsHeaderVisible] = useState(true);
 
     useEffect(() => {
-        initializeApp()
-    }, []);
+        console.log("newUserAlert " + newUserAlert);
+        if (newUserAlert) {
+            setTimeout(setStatusToNewUserAlert, 6000, false);
+        }
+    }, [newUserAlert]);
 
     // console.log("isHeaderVisible "+ isHeaderVisible);
 
@@ -40,10 +45,12 @@ function App({initializeApp, initialized}) {
                 <>
                     <Header isHeaderVisible={isHeaderVisible}/>
 
-                    <Route exact path={'/'} render={() => (<Main/>)}/>
+                    <Route exact path={'/'} render={() => (<IndexPage/>)}/>
 
                     <Route path={'/registration'}
-                           render={() => (<Registration hideHeader={hideHeader} showHeader={showHeader}/>)}/>
+                           render={() => (<Registration hideHeader={hideHeader}
+                                                        showHeader={showHeader}/>)
+                           }/>
 
                     <Route path={'/signIn'}
                            render={() => (<SignIn hideHeader={hideHeader} showHeader={showHeader}/>)}/>
@@ -52,22 +59,38 @@ function App({initializeApp, initialized}) {
                     <Route path={'/carousel'} render={() => (<CarouselTest/>)}/>
                     <Route path={'/toasts'} render={() => (<ToastsTesting/>)}/>
                     <Route path={'/halloween'} render={() => (<Halloween/>)}/>
-                    <Route path={'/index'} render={() => (<IndexPage/>)}/>
+                    <Route path={'/index'} render={() => (<Main/>)}/>
                     <Route path={'/scroll'} render={() => (<ScrollPage/>)}/>
+
+                    {
+                        newUserAlert &&
+                        <SuccessAlert data={'Поздравляем! Вы успешно прошли регистрацию в сервисе VPROFI.RU'}/>
+                    }
                 </>
                 :
                 <InitialPreloader/>
             }
         </div>
     );
+
+}
+
+function AppShell({initializeApp, initialized, newUserAlert, setStatusToNewUserAlert}) {
+    useEffect(() => {
+        console.log("initialized");
+        initializeApp();
+    }, []);
+
+    return (<App initialized={initialized} newUserAlert={newUserAlert} setStatusToNewUserAlert={setStatusToNewUserAlert}/>)
 }
 
 const mapStateToProps = (state) => ({
-    initialized: state.app.initialized
+    initialized: state.app.initialized,
+    newUserAlert: state.registrationAndLogIn.newUserAlert
 });
 
 const AppContainer = compose(withRouter,
-    (connect(mapStateToProps, {initializeApp})))(App);
+    (connect(mapStateToProps, {initializeApp, setStatusToNewUserAlert})))(AppShell);
 
 
 const AppDone = () => {

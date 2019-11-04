@@ -2,27 +2,27 @@ import React, {useEffect} from 'react';
 import styles from './SignIn.module.css';
 import ReduxSignInForm from "./SignInForm";
 import {NavLink, Redirect} from "react-router-dom";
-import {Alert} from "react-bootstrap";
-import style from "../Registration/Registration.module.css";
 import {connect} from "react-redux";
 import {login} from "../../redux/reducers/auth-reducer";
+import {ErrorAlert} from "../common/Alerts/Alerts";
+import {cleanErrorStack} from "../../redux/reducers/signUpAndIn-reducer";
 
-const SignIn = ({hideHeader, showHeader, errorsFromInput, isAuth, isFetching, login}) => {
+const SignIn = ({hideHeader, showHeader, errorsFromInput, isAuth, isFetching, login, cleanErrorStack}) => {
 
 // если пользователь авторизован, то сюда он никак не дожен попасть!!!!!
 
     useEffect(() => {
         hideHeader();
+        cleanErrorStack();
         return () => {
             showHeader();
         };
-    });
+    }, []);
 
     const onSubmit = (formData) => {
         console.log("Submit");
         console.log(formData);
         login(formData.emailOrTelephoneNumber, formData.password)
-
     };
 
 
@@ -39,10 +39,7 @@ const SignIn = ({hideHeader, showHeader, errorsFromInput, isAuth, isFetching, lo
 
                 {
                     errorsFromInput &&
-                    <Alert className={style.alert} variant={'danger'}>
-                        {errorsFromInput}
-                    </Alert>
-
+                    <ErrorAlert data={errorsFromInput}/>
                 }
             </div>
         )
@@ -55,4 +52,4 @@ const mapStateToProps = state => ({
     isAuth: state.auth.isAuth
 });
 
-export default connect(mapStateToProps, {login})(SignIn)
+export default connect(mapStateToProps, {login, cleanErrorStack})(SignIn)

@@ -1,5 +1,6 @@
 import {authApi} from "../../api/api";
 import {stopSubmit} from "redux-form";
+import {setStatusToNewUserAlert} from "./signUpAndIn-reducer";
 
 const SET_USER_DATA = 'vprofiApp/auth-reducer/SET-USER-DATA';
 const SET_IS_AUTH = 'vprofiApp/auth-reducer/SET-IS-AUTH';
@@ -42,6 +43,7 @@ export const registration = (telephone, email, password) => {
 
             if (response.status === 204) {
                 dispatch(getAuthUserStatus());
+                dispatch(setStatusToNewUserAlert(true));
                 console.log("Registration completed successfully");
             } else {
                 console.log(response)

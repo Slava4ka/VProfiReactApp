@@ -4,7 +4,7 @@ import {Field, reduxForm} from "redux-form";
 import {signInValidate} from "../../validators/validators";
 import reduxRenderInputField from "../common/FormsControls/reduxRenderInputField";
 import {connect} from "react-redux";
-import {addErrorToStack, removeErrorFromStack} from "../../redux/reducers/registration-reducer";
+import {addErrorToStack, removeErrorFromStack} from "../../redux/reducers/signUpAndIn-reducer";
 
 const SignInForm = ({handleSubmit, error, disabled, addErrorToStack, removeErrorFromStack}) => {
 

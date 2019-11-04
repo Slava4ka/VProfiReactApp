@@ -31,7 +31,7 @@ const normalizeUsersIdent = (usersIdent) => {
     switch (true) {
         case ((/^((8)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{8,12}$/i.test(usersIdent))):
             let validNumber = usersIdent.replace(/[^\d]/g, '');
-            return validNumber.replace('8','7');
+            return validNumber.replace('8', '7');
         case ((/^((\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{8,12}$/i.test(usersIdent))):
             return usersIdent.replace(/[^\d]/g, '');
         default:
@@ -43,5 +43,10 @@ for (let number = 0; number < numbers.length; number++) {
 
     const emailOrNumber = numbers[number];
 
-    console.log(normolizeTelephoneNumber(emailOrNumber));
+    console.log(normalizeUsersIdent(emailOrNumber));
 }
+
+
+const obg = [{one: 1}, {two: 2}, {tree: 3}];
+const obgKeys = obg.map(item => Object.keys(item)[0]);
+console.log(obgKeys.indexOf("two"));

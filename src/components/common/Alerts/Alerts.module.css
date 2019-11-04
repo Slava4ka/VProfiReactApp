@@ -1,0 +1,17 @@
+.alert {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .alert {
+        text-align: center;
+        top: 0;
+        bottom: auto;
+        margin-bottom: 40px;
+        z-index: 5;
+    }
+}

@@ -4,25 +4,28 @@ import ReduxRegistrationForm from "./RegistrationForm";
 import {NavLink, Redirect} from "react-router-dom";
 import {registration} from "../../redux/reducers/auth-reducer";
 import {connect} from "react-redux";
-import {Alert} from "react-bootstrap";
+import {ErrorAlert} from "../common/Alerts/Alerts";
+import {cleanErrorStack} from "../../redux/reducers/signUpAndIn-reducer";
 
-const Registration = ({hideHeader, showHeader, registration, errorsFromInput, isAuth, isFetching}) => {
+const Registration = ({hideHeader, showHeader, registration, errorsFromInput, isAuth, isFetching, cleanErrorStack}) => {
 
 // если пользователь авторизован, то сюда он никак не дожен попасть!!!!!
 
     useEffect(() => {
         hideHeader();
+        cleanErrorStack();
         return () => {
             showHeader();
         };
-    });
+    }, []);
 
     const onSubmit = (formData) => {
         console.log("Submit!");
         console.log(formData);
-        registration(formData.tel, formData.email, formData.password)
+        registration(formData.tel, formData.email, formData.password);
     };
 
+    // это потом надо сделать хуком
     if (isAuth) {
         return <Redirect to={'/'}/>
     } else {
@@ -35,9 +38,7 @@ const Registration = ({hideHeader, showHeader, registration, errorsFromInput, is
 
                 {
                     errorsFromInput &&
-                    <Alert className={style.alert} variant={'danger'}>
-                        {errorsFromInput}
-                    </Alert>
+                    <ErrorAlert data={errorsFromInput}/>
                 }
             </div>
         )
@@ -50,4 +51,4 @@ const mapStateToProps = state => ({
     isAuth: state.auth.isAuth
 });
 
-export default connect(mapStateToProps, {registration})(Registration)
+export default connect(mapStateToProps, {registration, cleanErrorStack})(Registration)
