@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Registration.module.css";
+import style from "./SignUp.module.css";
 import {Field, reduxForm} from "redux-form";
 import {validateRegistration} from "../../validators/validators";
 import reduxRenderInputField from "../common/FormsControls/reduxRenderInputField";
@@ -8,7 +8,7 @@ import {connect} from "react-redux";
 import {addErrorToStack, removeErrorFromStack} from "../../redux/reducers/signUpAndIn-reducer";
 
 
-const RegistrationForm = ({handleSubmit, error, disabled, addErrorToStack, removeErrorFromStack}) => {
+const SignUpForm = ({handleSubmit, error, disabled, addErrorToStack, removeErrorFromStack}) => {
 
     if (error) {
         console.log("error:\n---------------------");
@@ -103,6 +103,6 @@ const ReduxRegistrationForm = reduxForm({
     form: 'registration', // уникальное строговое имя (для state)
     validate: validateRegistration,
     initialValues: {telNumber: normalizePhone}
-})(RegistrationForm);
+})(SignUpForm);
 
 export default connect(null, {addErrorToStack, removeErrorFromStack})(ReduxRegistrationForm)

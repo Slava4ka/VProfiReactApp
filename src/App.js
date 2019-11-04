@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import {HashRouter, Route, withRouter} from 'react-router-dom';
 import Main from './components/Main/Main';
-import Registration from './components/Registration/Registration'
+import Registration from './components/SignUp/SignUp'
 import Header from "./components/Header/Header";
 import store from './redux/redux-store';
 import {connect, Provider} from "react-redux";

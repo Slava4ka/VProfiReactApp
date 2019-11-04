@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/Alerts/Alerts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Alerts/Alerts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/signUp-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderCheckBoxField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderCheckBoxField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderInputField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/reduxRenderInputField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forTesting/forTextingScripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/forTextingScripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/SignUp.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/SignUpForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/registration-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/signIn-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +133,7 @@
       <workItem from="1572365736262" duration="42110000" />
       <workItem from="1572634101919" duration="12720000" />
       <workItem from="1572880275423" duration="1839000" />
-      <workItem from="1572888308689" duration="3221000" />
+      <workItem from="1572888308689" duration="3592000" />
     </task>
     <servers />
   </component>

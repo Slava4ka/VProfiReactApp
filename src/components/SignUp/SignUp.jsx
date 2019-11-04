@@ -1,13 +1,13 @@
 import React, {useEffect} from 'react';
-import style from './Registration.module.css';
-import ReduxRegistrationForm from "./RegistrationForm";
+import style from './SignUp.module.css';
+import ReduxRegistrationForm from "./SignUpForm";
 import {NavLink, Redirect} from "react-router-dom";
 import {registration} from "../../redux/reducers/auth-reducer";
 import {connect} from "react-redux";
 import {ErrorAlert} from "../common/Alerts/Alerts";
 import {cleanErrorStack} from "../../redux/reducers/signUpAndIn-reducer";
 
-const Registration = ({hideHeader, showHeader, registration, errorsFromInput, isAuth, isFetching, cleanErrorStack}) => {
+const SignUp = ({hideHeader, showHeader, registration, errorsFromInput, isAuth, isFetching, cleanErrorStack}) => {
 
 // если пользователь авторизован, то сюда он никак не дожен попасть!!!!!
 
@@ -51,4 +51,4 @@ const mapStateToProps = state => ({
     isAuth: state.auth.isAuth
 });
 
-export default connect(mapStateToProps, {registration, cleanErrorStack})(Registration)
+export default connect(mapStateToProps, {registration, cleanErrorStack})(SignUp)

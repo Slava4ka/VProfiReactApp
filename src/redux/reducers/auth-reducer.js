@@ -44,7 +44,7 @@ export const registration = (telephone, email, password) => {
             if (response.status === 204) {
                 dispatch(getAuthUserStatus());
                 dispatch(setStatusToNewUserAlert(true));
-                console.log("Registration completed successfully");
+                console.log("SignUp completed successfully");
             } else {
                 console.log(response)
             }
