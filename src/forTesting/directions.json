@@ -1,0 +1,584 @@
+{
+  "Медицина": {
+    "directionsName": "Медицина",
+    "haveChild": true,
+    "specialties": {
+      "Врачи": {
+        "specialtyName": "Врачи",
+        "haveChild": true,
+        "specializations": [
+          {
+            "акушеры": {
+              "specializationName": "акушеры",
+              "haveChild": false
+            }
+          },
+          {
+            "аллергологи": {
+              "specializationName": "аллергологи",
+              "haveChild": false
+            }
+          },
+          {
+            "ангиохирурги": {
+              "specializationName": "ангиохирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "андрологи": {
+              "specializationName": "андрологи",
+              "haveChild": false
+            }
+          },
+          {
+            "анестезиологи-реаниматологи": {
+              "specializationName": "анестезиологи-реаниматологи",
+              "haveChild": false
+            }
+          },
+          {
+            "аритмологи": {
+              "specializationName": "аритмологи",
+              "haveChild": false
+            }
+          },
+          {
+            "венерологи": {
+              "specializationName": "венерологи",
+              "haveChild": false
+            }
+          },
+          {
+            "вертебрологи": {
+              "specializationName": "вертебрологи",
+              "haveChild": false
+            }
+          },
+          {
+            "врачи-косметологи": {
+              "specializationName": "врачи-косметологи",
+              "haveChild": false
+            }
+          },
+          {
+            "врачи лечебной физкультуры": {
+              "specializationName": "врачи лечебной физкультуры",
+              "haveChild": false
+            }
+          },
+          {
+            "врачи общей практики": {
+              "specializationName": "врачи общей практики",
+              "haveChild": false
+            }
+          },
+          {
+            "врачи скорой помощи": {
+              "specializationName": "врачи скорой помощи",
+              "haveChild": false
+            }
+          },
+          {
+            "врачи УЗИ": {
+              "specializationName": "врачи УЗИ",
+              "haveChild": false
+            }
+          },
+          {
+            "врачи эфферентной терапии": {
+              "specializationName": "врачи эфферентной терапии",
+              "haveChild": false
+            }
+          },
+          {
+            "гастроэнтерологи": {
+              "specializationName": "гастроэнтерологи",
+              "haveChild": false
+            }
+          },
+          {
+            "гематологи": {
+              "specializationName": "гематологи",
+              "haveChild": false
+            }
+          },
+          {
+            "генетики": {
+              "specializationName": "генетики",
+              "haveChild": false
+            }
+          },
+          {
+            "гепатологи": {
+              "specializationName": "гепатологи",
+              "haveChild": false
+            }
+          },
+          {
+            "гинекологи": {
+              "specializationName": "гинекологи",
+              "haveChild": false
+            }
+          },
+          {
+            "гинекологи-эндокринологи": {
+              "specializationName": "гинекологи-эндокринологи",
+              "haveChild": false
+            }
+          },
+          {
+            "гирудотерапевты": {
+              "specializationName": "гирудотерапевты",
+              "haveChild": false
+            }
+          },
+          {
+            "гнойные хирурги": {
+              "specializationName": "гнойные хирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "гомеопаты": {
+              "specializationName": "гомеопаты",
+              "haveChild": false
+            }
+          },
+          {
+            "дерматологи": {
+              "specializationName": "дерматологи",
+              "haveChild": false
+            }
+          },
+          {
+            "дефектологи": {
+              "specializationName": "дефектологи",
+              "haveChild": false
+            }
+          },
+          {
+            "диетологи": {
+              "specializationName": "диетологи",
+              "haveChild": false
+            }
+          },
+          {
+            "иммунологи": {
+              "specializationName": "иммунологи",
+              "haveChild": false
+            }
+          },
+          {
+            "инфекционисты": {
+              "specializationName": "инфекционисты",
+              "haveChild": false
+            }
+          },
+          {
+            "кардиологи": {
+              "specializationName": "кардиологи",
+              "haveChild": false
+            }
+          },
+          {
+            "кардиохирурги": {
+              "specializationName": "кардиохирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "клинические фармакологи": {
+              "specializationName": "клинические фармакологи",
+              "haveChild": false
+            }
+          },
+          {
+            "лазерные хирурги": {
+              "specializationName": "лазерные хирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "логопеды": {
+              "specializationName": "логопеды",
+              "haveChild": false
+            }
+          },
+          {
+            "ЛОРы": {
+              "specializationName": "ЛОРы",
+              "haveChild": false
+            }
+          },
+          {
+            "малоинвазивные хирурги": {
+              "specializationName": "малоинвазивные хирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "маммологи": {
+              "specializationName": "маммологи",
+              "haveChild": false
+            }
+          },
+          {
+            "мануальные терапевты": {
+              "specializationName": "мануальные терапевты",
+              "haveChild": false
+            }
+          },
+          {
+            "массажисты": {
+              "specializationName": "массажисты",
+              "haveChild": false
+            }
+          },
+          {
+            "микологи": {
+              "specializationName": "микологи",
+              "haveChild": false
+            }
+          },
+          {
+            "наркологи": {
+              "specializationName": "наркологи",
+              "haveChild": false
+            }
+          },
+          {
+            "неврологи": {
+              "specializationName": "неврологи",
+              "haveChild": false
+            }
+          },
+          {
+            "нейрохирурги": {
+              "specializationName": "нейрохирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "неонатологи": {
+              "specializationName": "неонатологи",
+              "haveChild": false
+            }
+          },
+          {
+            "нефрологи": {
+              "specializationName": "нефрологи",
+              "haveChild": false
+            }
+          },
+          {
+            "ожоговые хирурги": {
+              "specializationName": "ожоговые хирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "онкологи": {
+              "specializationName": "онкологи",
+              "haveChild": false
+            }
+          },
+          {
+            "онкологи-гинекологи": {
+              "specializationName": "онкологи-гинекологи",
+              "haveChild": false
+            }
+          },
+          {
+            "онкологи-урологи": {
+              "specializationName": "онкологи-урологи",
+              "haveChild": false
+            }
+          },
+          {
+            "ортопеды": {
+              "specializationName": "ортопеды",
+              "haveChild": false
+            }
+          },
+          {
+            "остеопаты": {
+              "specializationName": "остеопаты",
+              "haveChild": false
+            }
+          },
+          {
+            "офтальмологи": {
+              "specializationName": "офтальмологи",
+              "haveChild": false
+            }
+          },
+          {
+            "офтальмологи-хирурги": {
+              "specializationName": "офтальмологи-хирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "паразитологи": {
+              "specializationName": "паразитологи",
+              "haveChild": false
+            }
+          },
+          {
+            "пародонтологи": {
+              "specializationName": "пародонтологи",
+              "haveChild": false
+            }
+          },
+          {
+            "педиатры": {
+              "specializationName": "педиатры",
+              "haveChild": false
+            }
+          },
+          {
+            "пластические хирурги": {
+              "specializationName": "пластические хирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "подологи(подиатры)": {
+              "specializationName": "подологи(подиатры)",
+              "haveChild": false
+            }
+          },
+          {
+            "проктологи": {
+              "specializationName": "проктологи",
+              "haveChild": false
+            }
+          },
+          {
+            "профпатологи": {
+              "specializationName": "профпатологи",
+              "haveChild": false
+            }
+          },
+          {
+            "психиатры": {
+              "specializationName": "психиатры",
+              "haveChild": false
+            }
+          },
+          {
+            "психологи": {
+              "specializationName": "психологи",
+              "haveChild": false
+            }
+          },
+          {
+            "психотерапевты": {
+              "specializationName": "психотерапевты",
+              "haveChild": false
+            }
+          },
+          {
+            "пульмонологи": {
+              "specializationName": "пульмонологи",
+              "haveChild": false
+            }
+          },
+          {
+            "радиологи": {
+              "specializationName": "радиологи",
+              "haveChild": false
+            }
+          },
+          {
+            "реалибитологи": {
+              "specializationName": "реалибитологи",
+              "haveChild": false
+            }
+          },
+          {
+            "ревматологи": {
+              "specializationName": "ревматологи",
+              "haveChild": false
+            }
+          },
+          {
+            "рентгенологи": {
+              "specializationName": "рентгенологи",
+              "haveChild": false
+            }
+          },
+          {
+            "репродуктологи": {
+              "specializationName": "репродуктологи",
+              "haveChild": false
+            }
+          },
+          {
+            "рефлексотерапевты": {
+              "specializationName": "рефлексотерапевты",
+              "haveChild": false
+            }
+          },
+          {
+            "сексологи": {
+              "specializationName": "сексологи",
+              "haveChild": false
+            }
+          },
+          {
+            "сомнологи": {
+              "specializationName": "сомнологи",
+              "haveChild": false
+            }
+          },
+          {
+            "спортивные врачи": {
+              "specializationName": "спортивные врачи",
+              "haveChild": false
+            }
+          },
+          {
+            "судебно-медицинские эксперты": {
+              "specializationName": "судебно-медицинские эксперты",
+              "haveChild": false
+            }
+          },
+          {
+            "сурдологи": {
+              "specializationName": "сурдологи",
+              "haveChild": false
+            }
+          },
+          {
+            "терапевты": {
+              "specializationName": "терапевты",
+              "haveChild": false
+            }
+          },
+          {
+            "торакальные онкологи": {
+              "specializationName": "торакальные онкологи",
+              "haveChild": false
+            }
+          },
+          {
+            "торакальные хирурги": {
+              "specializationName": "торакальные хирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "травмотологи": {
+              "specializationName": "травмотологи",
+              "haveChild": false
+            }
+          },
+          {
+            "трансфузиологи": {
+              "specializationName": "трансфузиологи",
+              "haveChild": false
+            }
+          },
+          {
+            "трихологи": {
+              "specializationName": "трихологи",
+              "haveChild": false
+            }
+          },
+          {
+            "урологи": {
+              "specializationName": "урологи",
+              "haveChild": false
+            }
+          },
+          {
+            "физиотерапевты": {
+              "specializationName": "физиотерапевты",
+              "haveChild": false
+            }
+          },
+          {
+            "флеболог": {
+              "specializationName": "флеболог",
+              "haveChild": false
+            }
+          },
+          {
+            "фониатры": {
+              "specializationName": "фониатры",
+              "haveChild": false
+            }
+          },
+          {
+            "фтизиатры": {
+              "specializationName": "фтизиатры",
+              "haveChild": false
+            }
+          },
+          {
+            "функциональные диагносты": {
+              "specializationName": "функциональные диагносты",
+              "haveChild": false
+            }
+          },
+          {
+            "химиотерапевты": {
+              "specializationName": "химиотерапевты",
+              "haveChild": false
+            }
+          },
+          {
+            "хирурги": {
+              "specializationName": "хирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "хирурги-эндокринологи": {
+              "specializationName": "хирурги-эндокринологи",
+              "haveChild": false
+            }
+          },
+          {
+            "челюстно-лицевые хирурги": {
+              "specializationName": "челюстно-лицевые хирурги",
+              "haveChild": false
+            }
+          },
+          {
+            "эмбриологи": {
+              "specializationName": "эмбриологи",
+              "haveChild": false
+            }
+          },
+          {
+            "эндокринологи": {
+              "specializationName": "эндокринологи",
+              "haveChild": false
+            }
+          },
+          {
+            "эндоскописты": {
+              "specializationName": "эндоскописты",
+              "haveChild": false
+            }
+          },
+          {
+            "эпедимиолог": {
+              "specializationName": "эпедимиолог",
+              "haveChild": false
+            }
+          },
+          {
+            "эпилептологи": {
+              "specializationName": "эпилептологи",
+              "haveChild": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

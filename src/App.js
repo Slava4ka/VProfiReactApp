@@ -17,6 +17,7 @@ import {initializeApp} from "./redux/reducers/app-reducer";
 import InitialPreloader from "./components/common/Preloader/InitialPreloader";
 import {SuccessAlert} from "./components/common/Alerts/Alerts";
 import {setStatusToNewUserAlert} from "./redux/reducers/signUpAndIn-reducer";
+import Catalog from "./forTesting/Сatalog/Сatalog";
 
 function App({initialized, newUserAlert, setStatusToNewUserAlert}) {
 
@@ -61,6 +62,7 @@ function App({initialized, newUserAlert, setStatusToNewUserAlert}) {
                     <Route path={'/halloween'} render={() => (<Halloween/>)}/>
                     <Route path={'/index'} render={() => (<Main/>)}/>
                     <Route path={'/scroll'} render={() => (<ScrollPage/>)}/>
+                    <Route path={'/catalog'} render={() => (<Catalog/>)}/>
 
                     {
                         newUserAlert &&
@@ -81,7 +83,8 @@ function AppShell({initializeApp, initialized, newUserAlert, setStatusToNewUserA
         initializeApp();
     }, []);
 
-    return (<App initialized={initialized} newUserAlert={newUserAlert} setStatusToNewUserAlert={setStatusToNewUserAlert}/>)
+    return (
+        <App initialized={initialized} newUserAlert={newUserAlert} setStatusToNewUserAlert={setStatusToNewUserAlert}/>)
 }
 
 const mapStateToProps = (state) => ({

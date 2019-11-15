@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import styles from './Header.module.css';
 import TopNavBar from "./TopNavBar";
 import BottomNavBar from "./BottomNavBar";
+import TabsPanel from "../TabsPanel/TabsPanel";
 
 const Header = ({isHeaderVisible}) => {
 
@@ -26,13 +27,20 @@ const Header = ({isHeaderVisible}) => {
         });
     });
 
+    const [tabsPanelVisible, setTabsPanelVisible] = useState(false);
+
+    const openCloseTabs = () => {
+        console.log("openCloseTabs");
+        setTabsPanelVisible(!tabsPanelVisible);
+    };
 
     return (
         <div id="commonNavBar"
              className={(!isHeaderVisible) ? `${styles.displayNone} ${styles.commonNavBar}` : `${styles.commonNavBar}`}>
 
             <TopNavBar topNavBarHide={topNavBarHide}/>
-            <BottomNavBar/>
+            <BottomNavBar openCloseTabs={openCloseTabs}/>
+            <TabsPanel tabsPanelVisible={tabsPanelVisible} />
 
         </div>)
 };

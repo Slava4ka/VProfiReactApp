@@ -1,0 +1,69 @@
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu__btn {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border: 3px solid white;
+    border-radius: 0;
+    transition: border-radius 300ms ease;
+}
+.menu__btn:hover {
+    border-radius: 50%;
+}
+.menu__btn.isOpen .menu__burger {
+    opacity: 0;
+    transform: translateX(45px);
+}
+.menu__btn.isOpen .menu__exit {
+    opacity: 1;
+    transform: translateX(0);
+}
+.menu__burger, .menu__burger:before, .menu__burger:after {
+    display: block;
+    content: '';
+    width: 18px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+}
+.menu__burger {
+    left: 9px;
+    top: 15px;
+    transform: translateX(0);
+    opacity: 1;
+    transition: opacity 300ms ease, transform 300ms ease;
+}
+.menu__burger:before {
+    top: -8px;
+}
+.menu__burger:after {
+    top: 8px;
+}
+.menu__exit:before, .menu__exit:after {
+    display: block;
+    content: '';
+    width: 22px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+}
+.menu__exit {
+    position: absolute;
+    top: 16px;
+    left: 7px;
+    transform: translateX(-45px);
+    opacity: 0;
+    transition: opacity 300ms ease, transform 300ms ease;
+}
+.menu__exit:before {
+    transform: rotate(45deg);
+}
+.menu__exit:after {
+    transform: rotate(-45deg);
+}
