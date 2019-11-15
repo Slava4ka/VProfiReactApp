@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Burger/Burger.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Сatalog/Catalog.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Сatalog/Сatalog.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/BottomNavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/BottomNavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Burger/Burger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Burger/Burger.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +147,7 @@
       <workItem from="1573645819944" duration="5266000" />
       <workItem from="1573677467316" duration="41000" />
       <workItem from="1573677535786" duration="15092000" />
-      <workItem from="1573843276099" duration="4967000" />
+      <workItem from="1573843276099" duration="10007000" />
     </task>
     <servers />
   </component>

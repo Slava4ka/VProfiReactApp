@@ -10,5 +10,5 @@ const Burger = ({isOpen}) => {
         </a>
     </div>
 };
-export default Burger
 
+export default Burger

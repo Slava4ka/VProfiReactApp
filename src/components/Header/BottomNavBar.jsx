@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import style from "./Header.module.css";
 import SimpleSlider from "../../forTesting/Slick/SimpleSlider";
+import Burger from "../common/Burger/Burger";
 
 const BottomNavBar = ({openCloseTabs}) => {
     return (
@@ -10,10 +11,12 @@ const BottomNavBar = ({openCloseTabs}) => {
                 <Row>
                     <Col sm={12} md={2}>
                         <div className={style.allCategories} onClick={() => openCloseTabs()}>
-                            <h5 className={style.label}>Все категории</h5>
+                            <h5 className={style.label}>
+                                Все категории
+                            </h5>
                         </div>
                     </Col>
-                     <Col sm={12} md={10}>
+                    <Col sm={12} md={10}>
                         <SimpleSlider/>
                     </Col>
                 </Row>
