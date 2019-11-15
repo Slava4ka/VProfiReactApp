@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VProfiReactApp/static/css/main.6c5660cc.chunk.css",
+    "main.css": "/VProfiReactApp/static/css/main.0916dd49.chunk.css",
     "main.js": "/VProfiReactApp/static/js/main.3162ad9b.chunk.js",
     "main.js.map": "/VProfiReactApp/static/js/main.3162ad9b.chunk.js.map",
     "runtime-main.js": "/VProfiReactApp/static/js/runtime-main.6fc3858d.js",
@@ -9,10 +9,10 @@
     "static/js/2.6d158b0d.chunk.js": "/VProfiReactApp/static/js/2.6d158b0d.chunk.js",
     "static/js/2.6d158b0d.chunk.js.map": "/VProfiReactApp/static/js/2.6d158b0d.chunk.js.map",
     "index.html": "/VProfiReactApp/index.html",
-    "precache-manifest.b020154a6271e64cb2fff57409184a05.js": "/VProfiReactApp/precache-manifest.b020154a6271e64cb2fff57409184a05.js",
+    "precache-manifest.51ff60c84d3e90f159f1e4404176ac24.js": "/VProfiReactApp/precache-manifest.51ff60c84d3e90f159f1e4404176ac24.js",
     "service-worker.js": "/VProfiReactApp/service-worker.js",
     "static/css/2.c175c33d.chunk.css.map": "/VProfiReactApp/static/css/2.c175c33d.chunk.css.map",
-    "static/css/main.6c5660cc.chunk.css.map": "/VProfiReactApp/static/css/main.6c5660cc.chunk.css.map",
+    "static/css/main.0916dd49.chunk.css.map": "/VProfiReactApp/static/css/main.0916dd49.chunk.css.map",
     "static/media/slick-theme.css": "/VProfiReactApp/static/media/slick.f97e3bbf.svg"
   }
 }
