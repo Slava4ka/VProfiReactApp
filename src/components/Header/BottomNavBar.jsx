@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import style from "./Header.module.css";
 import SimpleSlider from "../../forTesting/Slick/SimpleSlider";
-import Burger from "../common/Burger/Burger";
 
 const BottomNavBar = ({openCloseTabs}) => {
     return (

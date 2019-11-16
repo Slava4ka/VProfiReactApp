@@ -8,16 +8,17 @@ const Header = ({isHeaderVisible}) => {
 
     const [topNavBarHide, setTopNavBarHide] = useState(true);
 
+    /*
     useEffect(() => {
         window.addEventListener('scroll', function () {
             let navbarSize = document.getElementById('commonNavBar').offsetHeight;
-            let scrollTop = document.documentElement.scrollTop;
+             let scrollTop = document.documentElement.scrollTop;
 
             /*
             console.log("navbarSize " + navbarSize + "px");
             console.log("scrollTop " + scrollTop);
             */
-
+/*
             if (scrollTop > navbarSize) {
                 setTopNavBarHide(false)
             } else {
@@ -26,7 +27,7 @@ const Header = ({isHeaderVisible}) => {
             // console.log(topNavBarHide);
         });
     });
-
+*/
     const [tabsPanelVisible, setTabsPanelVisible] = useState(false);
 
     const openCloseTabs = () => {

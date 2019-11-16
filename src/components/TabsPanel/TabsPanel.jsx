@@ -8,10 +8,11 @@ const TabsPanel = ({tabsPanelVisible}) => {
     const TEMP_CATEGORIES = ["Репетиторы и курсы", "Мастера по ремонту", "Мастера красоты", "Спортивные тренеры", "Автоинструкторы",
         "Артисты", "ИТ-фрилансеры", "Домашний персонал", "Ветеринары", "Бухгалтеры и юристы", "Врачи", "Ищете кого-то ещё?"];
 
+
     return (
         <div className={`${style.tabsPanel} ${tabsPanelVisible ? style.tabsPanelOpen : style.tabsPanelHidden}`}>
 
-            <Container>
+            <Container className={style.container}>
                 <Row>
 
                     <Col md={4}>

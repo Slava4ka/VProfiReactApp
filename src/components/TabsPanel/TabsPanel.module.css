@@ -19,6 +19,7 @@
 }
 
 .tabsPanelOpen {
+    position: relative;
     z-index: 1;
     visibility: visible;
     opacity: 1;
@@ -35,6 +36,10 @@
     border-right: 1px solid rgba(0, 0, 0, .09);
 }
 
+.container {
+    position: relative;
+}
+
 .tab:first-child {
     margin-top: 15px;
 }
@@ -49,6 +54,7 @@
     align-items: center;
     justify-content: space-between;
     color: #333;
+    user-select: none;
 }
 
 .tab:hover {
