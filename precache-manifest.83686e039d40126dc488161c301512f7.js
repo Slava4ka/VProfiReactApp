@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17f1169dc2b3a8a7a9006ca17081eea9",
+    "revision": "e79fa06d0d7a89b610fac8cff8e605a3",
     "url": "/VProfiReactApp/index.html"
   },
   {
-    "revision": "5b4e02a319e6256d565c",
+    "revision": "3433b11d66da89120844",
     "url": "/VProfiReactApp/static/css/2.7d98d90f.chunk.css"
   },
   {
-    "revision": "03a5139a710ad399fc1d",
-    "url": "/VProfiReactApp/static/css/main.aedd5996.chunk.css"
+    "revision": "3ca2b923cd8ed3f86855",
+    "url": "/VProfiReactApp/static/css/main.52fe73ba.chunk.css"
   },
   {
-    "revision": "5b4e02a319e6256d565c",
-    "url": "/VProfiReactApp/static/js/2.3693734c.chunk.js"
+    "revision": "3433b11d66da89120844",
+    "url": "/VProfiReactApp/static/js/2.e4c14e5a.chunk.js"
   },
   {
-    "revision": "03a5139a710ad399fc1d",
-    "url": "/VProfiReactApp/static/js/main.e0b0a136.chunk.js"
+    "revision": "3ca2b923cd8ed3f86855",
+    "url": "/VProfiReactApp/static/js/main.3e365895.chunk.js"
   },
   {
     "revision": "da78e12765771c84cfbc",
