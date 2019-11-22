@@ -1,0 +1,2360 @@
+export const specializations = [
+    {
+    "id": 1,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "акушеры",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "аллергологи",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "ангиохирурги",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "андрологи",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "анестезиологи-реаниматологи",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "аритмологи",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "венерологи",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "вертебрологи",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "врачи-косметологи",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "врачи лечебной физкультуры",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "врачи общей практики",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "врачи скорой помощи",
+    "haveChild": false
+}, {
+    "id": 13,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "врачи УЗИ",
+    "haveChild": false
+}, {
+    "id": 14,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "врачи эфферентной терапии",
+    "haveChild": false
+}, {
+    "id": 15,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "гастроэнтерологи",
+    "haveChild": false
+}, {
+    "id": 16,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "гематологи",
+    "haveChild": false
+}, {
+    "id": 17,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "генетики",
+    "haveChild": false
+}, {
+    "id": 18,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "гепатологи",
+    "haveChild": false
+}, {
+    "id": 19,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "гинекологи",
+    "haveChild": false
+}, {
+    "id": 20,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "гинекологи-эндокринологи",
+    "haveChild": false
+}, {
+    "id": 21,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "гирудотерапевты",
+    "haveChild": false
+}, {
+    "id": 22,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "гнойные хирурги",
+    "haveChild": false
+}, {
+    "id": 23,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "гомеопаты",
+    "haveChild": false
+}, {
+    "id": 24,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "дерматологи",
+    "haveChild": false
+}, {
+    "id": 25,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "дефектологи",
+    "haveChild": false
+}, {
+    "id": 26,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "диетологи",
+    "haveChild": false
+}, {
+    "id": 27,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "иммунологи",
+    "haveChild": false
+}, {
+    "id": 28,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "инфекционисты",
+    "haveChild": false
+}, {
+    "id": 29,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "кардиологи",
+    "haveChild": false
+}, {
+    "id": 30,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "кардиохирурги",
+    "haveChild": false
+}, {
+    "id": 31,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "клинические фармакологи",
+    "haveChild": false
+}, {
+    "id": 32,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "лазерные хирурги",
+    "haveChild": false
+}, {
+    "id": 33,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "олгопеды",
+    "haveChild": false
+}, {
+    "id": 34,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "ЛОРы",
+    "haveChild": false
+}, {
+    "id": 35,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "малоинвазивные хирурги",
+    "haveChild": false
+}, {
+    "id": 36,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "маммологи",
+    "haveChild": false
+}, {
+    "id": 37,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "мануальные терапевты",
+    "haveChild": false
+}, {
+    "id": 38,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "массажисты",
+    "haveChild": false
+}, {
+    "id": 39,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "микологи",
+    "haveChild": false
+}, {
+    "id": 40,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "наркологи",
+    "haveChild": false
+}, {
+    "id": 41,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "неврологи",
+    "haveChild": false
+}, {
+    "id": 42,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "нейрохирурги",
+    "haveChild": false
+}, {
+    "id": 43,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "неонатологи",
+    "haveChild": false
+}, {
+    "id": 44,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "нефрологи",
+    "haveChild": false
+}, {
+    "id": 45,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "ожоговые хирурги",
+    "haveChild": false
+}, {
+    "id": 46,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "онкологи",
+    "haveChild": false
+}, {
+    "id": 47,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "онкологи-гинекологи",
+    "haveChild": false
+}, {
+    "id": 48,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "онкологи-урологи",
+    "haveChild": false
+}, {
+    "id": 49,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "ортопеды",
+    "haveChild": false
+}, {
+    "id": 50,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "остеопаты",
+    "haveChild": false
+}, {
+    "id": 51,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "офтальмологи",
+    "haveChild": false
+}, {
+    "id": 52,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "офтальмологи-хирурги",
+    "haveChild": false
+}, {
+    "id": 53,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "паразитологи",
+    "haveChild": false
+}, {
+    "id": 54,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "пародонтологи",
+    "haveChild": false
+}, {
+    "id": 55,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "педиатры",
+    "haveChild": false
+}, {
+    "id": 56,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "пластические хирурги",
+    "haveChild": false
+}, {
+    "id": 57,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "подологи(подиатры)",
+    "haveChild": false
+}, {
+    "id": 58,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "проктологи",
+    "haveChild": false
+}, {
+    "id": 59,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "профпатологи",
+    "haveChild": false
+}, {
+    "id": 60,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "психиатры",
+    "haveChild": false
+}, {
+    "id": 61,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "психологи",
+    "haveChild": false
+}, {
+    "id": 62,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "психотерапевты",
+    "haveChild": false
+}, {
+    "id": 63,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "пульмонологи",
+    "haveChild": false
+}, {
+    "id": 64,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "радиологи",
+    "haveChild": false
+}, {
+    "id": 65,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "реалибитологи",
+    "haveChild": false
+}, {
+    "id": 66,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "ревматологи",
+    "haveChild": false
+}, {
+    "id": 67,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "рентгенологи",
+    "haveChild": false
+}, {
+    "id": 68,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "репродуктологи",
+    "haveChild": false
+}, {
+    "id": 69,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "рефлексотерапевты",
+    "haveChild": false
+}, {
+    "id": 70,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "сексологи",
+    "haveChild": false
+}, {
+    "id": 71,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "сомнологи",
+    "haveChild": false
+}, {
+    "id": 72,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "спортивные врачи",
+    "haveChild": false
+}, {
+    "id": 73,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "судебно-медицинские эксперты",
+    "haveChild": false
+}, {
+    "id": 74,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "сурдологи",
+    "haveChild": false
+}, {
+    "id": 75,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "терапевты",
+    "haveChild": false
+}, {
+    "id": 76,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "торакальные онкологи",
+    "haveChild": false
+}, {
+    "id": 77,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "торакальные хирурги",
+    "haveChild": false
+}, {
+    "id": 78,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "травмотологи",
+    "haveChild": false
+}, {
+    "id": 79,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "трансфузиологи",
+    "haveChild": false
+}, {
+    "id": 80,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "трихологи",
+    "haveChild": false
+}, {
+    "id": 81,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "урологи",
+    "haveChild": false
+}, {
+    "id": 82,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "физиотерапевты",
+    "haveChild": false
+}, {
+    "id": 83,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "флеболог",
+    "haveChild": false
+}, {
+    "id": 84,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "фониатры",
+    "haveChild": false
+}, {
+    "id": 85,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "фтизиатры",
+    "haveChild": false
+}, {
+    "id": 86,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "функциональные диагносты",
+    "haveChild": false
+}, {
+    "id": 87,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "химиотерапевты",
+    "haveChild": false
+}, {
+    "id": 88,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "хирурги",
+    "haveChild": false
+}, {
+    "id": 89,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "хирурги-эндокринологи",
+    "haveChild": false
+}, {
+    "id": 90,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "челюстно-лицевые хирурги",
+    "haveChild": false
+}, {
+    "id": 91,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "эмбриологи",
+    "haveChild": false
+}, {
+    "id": 92,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "эндокринологи",
+    "haveChild": false
+}, {
+    "id": 93,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "эндоскописты",
+    "haveChild": false
+}, {
+    "id": 94,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "эпедимиолог",
+    "haveChild": false
+}, {
+    "id": 95,
+    "specialty_id": 1,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "эпилептологи",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские аллергологи",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские гастроэнтерологи",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские гинекологи",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские дерматологи",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские кардиологи",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские ЛОРы",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские массажисты",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские неврологи",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские нефрологи",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские онкологи",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские ортопеды",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские офтальмологи",
+    "haveChild": false
+}, {
+    "id": 13,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские психиатры",
+    "haveChild": false
+}, {
+    "id": 14,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские психологи",
+    "haveChild": false
+}, {
+    "id": 15,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские стоматологи",
+    "haveChild": false
+}, {
+    "id": 16,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские урологи",
+    "haveChild": false
+}, {
+    "id": 17,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские хирурги",
+    "haveChild": false
+}, {
+    "id": 18,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "детские эндокринологи",
+    "haveChild": false
+}, {
+    "id": 19,
+    "specialty_id": 2,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "педиатры",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 3,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "стоматологи",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 3,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "стоматологи-гигиенисты",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 3,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "стоматологи-имплантологи",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 3,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "стоматологи-ортодонты",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 3,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "стоматологи-ортопеды",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 3,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "стоматологи-хирурги",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 3,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "пародонтолог",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Лаборатории (анализы)",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Стоматологии",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Косметологии",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Детские клиники",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Диагностические центры",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Специализированные клиники",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Лечебно-оздоровительные клиники",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Наркологии",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Глазные",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Гинекологические",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Урологические",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Детские",
+    "haveChild": false
+}, {
+    "id": 13,
+    "specialty_id": 4,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Специализированные",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Хиджама (Флеботомия)",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "УЗИ",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "КТ",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "МРТ",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Рентген",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Функциональная диагностика",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Эндоскопия",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Терапия (Стоматология)",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Ортопедия (Стоматология)",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Хирургия (Стоматология)",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Ортодонтия (Стоматология)",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Исправление прикуса у детей",
+    "haveChild": false
+}, {
+    "id": 13,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Имплантация (Стоматология)",
+    "haveChild": false
+}, {
+    "id": 14,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Рентген (Стоматология)",
+    "haveChild": false
+}, {
+    "id": 15,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Лазерная хирургия (Удаление бородавок, …)",
+    "haveChild": false
+}, {
+    "id": 16,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Аппаратная косметология",
+    "haveChild": false
+}, {
+    "id": 17,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Инъекционная косметология",
+    "haveChild": false
+}, {
+    "id": 18,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Пилинг",
+    "haveChild": false
+}, {
+    "id": 19,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Эпиляция",
+    "haveChild": false
+}, {
+    "id": 20,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Уход",
+    "haveChild": false
+}, {
+    "id": 21,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Вакцинация",
+    "haveChild": false
+}, {
+    "id": 22,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Офтальмология (Диагностика зрения)",
+    "haveChild": false
+}, {
+    "id": 23,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "ЭКО",
+    "haveChild": false
+}, {
+    "id": 24,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Эндопротизирование",
+    "haveChild": false
+}, {
+    "id": 25,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Пластика",
+    "haveChild": false
+}, {
+    "id": 26,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Медико-социальная экспертиза",
+    "haveChild": false
+}, {
+    "id": 27,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Медицинские лаборатории",
+    "haveChild": false
+}, {
+    "id": 28,
+    "specialty_id": 5,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Судебно-медицинская экспертиза",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 6,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Лабораторное оборудование",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 6,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Магазины медтехники",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 6,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Медицинское оборудование, медтехника",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 6,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Ортопедические изделия",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 6,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Очки и оправы",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 6,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Слуховые аппараты",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 7,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Аптеки",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 7,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Ветеринарные аптеки",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 8,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Ветеринарный врач",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 8,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Аквариумист",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 8,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Фелинолог",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 8,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Ветеринарные клиники",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 8,
+    "direction_id": 1,
+    "type": "specialization",
+    "name": "Ветеринарные аптеки",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Мужская стрижка",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Парикмахер",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Косметолог",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Мастер по татуажу",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Мастер по маникюру, педикюру",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Визажист",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Стилист",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Бромастер",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Лашмакер",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Мастер по процедурам лазера",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Фитнес",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 1,
+    "direction_id": 2,
+    "type": "specialization",
+    "name": "Физиопроцедуры",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 1,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Компьютеров, ноутбуков",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 1,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Планшеты и телефоны",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 1,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Оргтехники",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 1,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Видео и фототехника",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 1,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Игровых приставок",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 1,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Приставки и спутниковое ТВ",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 1,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Спутниковые и эфирные антенны",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 1,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Часы и хронометры",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 1,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Другая (мелкая электроника)",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Холодильники и морозильные камеры",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Стиральные и сушильные машины",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Посудомоечные машины",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Электро-бензо инструмента",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Газовых и электроплит",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Вытяжки",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Сантехники",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "В одонагреватели, бойлеры, котлы, колонки",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Климатическая техника",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Швейные машины",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Другая бытовая техника",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 2,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Музыкальных инструментов",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Электрик",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Инженер",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Сантехник",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Плотник",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Сварщик",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Геодезист",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Маляр (отделочные работы)",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Потолки, полы",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Ремонт квартир и офисов",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Демонтажные работы",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Укладка плитки, кафеля (плиточные работы)",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Общие работы",
+    "haveChild": false
+}, {
+    "id": 13,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Работник на участок",
+    "haveChild": false
+}, {
+    "id": 14,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Услуги грузчиков",
+    "haveChild": false
+}, {
+    "id": 15,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Услуги уборщиц",
+    "haveChild": false
+}, {
+    "id": 16,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Сборка и ремонт мебели",
+    "haveChild": false
+}, {
+    "id": 17,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Работник на участок",
+    "haveChild": false
+}, {
+    "id": 18,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Ремонт под ключ",
+    "haveChild": false
+}, {
+    "id": 19,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Остекление, отделка балконов и лоджий",
+    "haveChild": false
+}, {
+    "id": 20,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Кровельные и фасадные работы",
+    "haveChild": false
+}, {
+    "id": 21,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Отопление, водоснабжение, канализация",
+    "haveChild": false
+}, {
+    "id": 22,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Изоляционные работы",
+    "haveChild": false
+}, {
+    "id": 23,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Строительно-монтажные работы",
+    "haveChild": false
+}, {
+    "id": 24,
+    "specialty_id": 3,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Охранные системы",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Техническое обслуживание автомобиля(ТО)",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Диагностика и ремонт двигателя, КПП и ходовой части",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Обслуживание системы кондиционирования",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Кузовной ремонт",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Автоэлектрика",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Автостекла и тонировка",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Шиномонтаж",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Мойка и химчистка",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Тюнинг (внешний и внутренний)",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Помощь на дороге",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Мотосервис",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Ремонт спецтехники",
+    "haveChild": false
+}, {
+    "id": 13,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Сход-развал",
+    "haveChild": false
+}, {
+    "id": 14,
+    "specialty_id": 4,
+    "direction_id": 3,
+    "type": "specialization",
+    "name": "Шумоизоляция",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 1,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Обучение чтению",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 1,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Развивающие методики",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 2,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Ингушский язык",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 2,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Чеченский язык",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 2,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Русский язык",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 2,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Иностранные языки",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 2,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Математика",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Английский язык",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Русский язык",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Ингушский язык",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Чеченский язык",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Немецкий язык",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Французский язык",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Биология",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "География",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Информатика",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "История",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Литература",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Математика",
+    "haveChild": false
+}, {
+    "id": 13,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Обществознание",
+    "haveChild": false
+}, {
+    "id": 14,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Физика",
+    "haveChild": false
+}, {
+    "id": 15,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Химия",
+    "haveChild": false
+}, {
+    "id": 16,
+    "specialty_id": 3,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Подготовка к олимпиадам",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по английскому языку",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по русскому языку",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по ингушскому языку",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по чеченскому языку",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по немецкому языку",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по французскому языку",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по истории",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по литературе",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по математике (базовый уровень)",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по математике (профильный уровень)",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по обществознанию",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по физике",
+    "haveChild": false
+}, {
+    "id": 13,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "ЕГЭ по химии",
+    "haveChild": false
+}, {
+    "id": 14,
+    "specialty_id": 4,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Подготовка к олимпиадам",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "1C, Adobe Photoshop, CorelDRAW",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "AutoCAD",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Аналитическая геометрия",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Английский язык",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Биология",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Бухгалтерский учет",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "География",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Дизайн интерьера, макетирование",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Дискретная математика",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Дифференциальное исчисление",
+    "haveChild": false
+}, {
+    "id": 11,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Дифференциальные уравнения",
+    "haveChild": false
+}, {
+    "id": 12,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Журналистика",
+    "haveChild": false
+}, {
+    "id": 13,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Инженерная графика",
+    "haveChild": false
+}, {
+    "id": 14,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Иностранные языки",
+    "haveChild": false
+}, {
+    "id": 15,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Интегральное исчисление",
+    "haveChild": false
+}, {
+    "id": 16,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "История",
+    "haveChild": false
+}, {
+    "id": 17,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Компьютерная грамотность",
+    "haveChild": false
+}, {
+    "id": 18,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Культурология, политология, социология",
+    "haveChild": false
+}, {
+    "id": 19,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Латынь",
+    "haveChild": false
+}, {
+    "id": 20,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Линейная алгебра",
+    "haveChild": false
+}, {
+    "id": 21,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Литература",
+    "haveChild": false
+}, {
+    "id": 22,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Математическая логика",
+    "haveChild": false
+}, {
+    "id": 23,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Математическая статистика",
+    "haveChild": false
+}, {
+    "id": 24,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Математический анализ",
+    "haveChild": false
+}, {
+    "id": 25,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Менеджмент",
+    "haveChild": false
+}, {
+    "id": 26,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Начертательная геометрия",
+    "haveChild": false
+}, {
+    "id": 27,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Подготовка к олимпиадам",
+    "haveChild": false
+}, {
+    "id": 28,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Правоведение",
+    "haveChild": false
+}, {
+    "id": 29,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Программирование",
+    "haveChild": false
+}, {
+    "id": 30,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Психология",
+    "haveChild": false
+}, {
+    "id": 31,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Рисование",
+    "haveChild": false
+}, {
+    "id": 32,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Риторика",
+    "haveChild": false
+}, {
+    "id": 33,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Рукоделие",
+    "haveChild": false
+}, {
+    "id": 34,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Русский язык и культура речи",
+    "haveChild": false
+}, {
+    "id": 35,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Сопротивление материалов",
+    "haveChild": false
+}, {
+    "id": 36,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Теория вероятностей",
+    "haveChild": false
+}, {
+    "id": 37,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Физика",
+    "haveChild": false
+}, {
+    "id": 38,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Философия",
+    "haveChild": false
+}, {
+    "id": 39,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Химия",
+    "haveChild": false
+}, {
+    "id": 40,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Черчение",
+    "haveChild": false
+}, {
+    "id": 41,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Шахматы",
+    "haveChild": false
+}, {
+    "id": 42,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Экономика",
+    "haveChild": false
+}, {
+    "id": 43,
+    "specialty_id": 5,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Электротехника",
+    "haveChild": false
+}, {
+    "id": 1,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Танцевальные кружки",
+    "haveChild": false
+}, {
+    "id": 2,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Актерское мастерство",
+    "haveChild": false
+}, {
+    "id": 3,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Академический и эстрадный вокал",
+    "haveChild": false
+}, {
+    "id": 4,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Постановка голоса и дыхания",
+    "haveChild": false
+}, {
+    "id": 5,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Аккордеон",
+    "haveChild": false
+}, {
+    "id": 6,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Гитара",
+    "haveChild": false
+}, {
+    "id": 7,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Нотная грамота",
+    "haveChild": false
+}, {
+    "id": 8,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Синтезатор",
+    "haveChild": false
+}, {
+    "id": 9,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Скрипка",
+    "haveChild": false
+}, {
+    "id": 10,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Ударные инструменты",
+    "haveChild": false
+}, {"id": 11,
+    "specialty_id": 6,
+    "direction_id": 4,
+    "type": "specialization",
+    "name": "Фортепиано",
+    "haveChild": false}
+];
