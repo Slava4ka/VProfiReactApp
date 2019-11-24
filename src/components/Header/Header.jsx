@@ -37,11 +37,12 @@ const Header = ({isHeaderVisible}) => {
 
     return (
         <div id="commonNavBar"
+             onMouseLeave={() => setTabsPanelVisible(false)}
              className={(!isHeaderVisible) ? `${styles.displayNone} ${styles.commonNavBar}` : `${styles.commonNavBar}`}>
 
             <TopNavBar topNavBarHide={topNavBarHide}/>
             <BottomNavBar openCloseTabs={openCloseTabs}/>
-            <TabsPanel tabsPanelVisible={tabsPanelVisible} />
+            <TabsPanel tabsPanelVisible={tabsPanelVisible}/>
 
         </div>)
 };

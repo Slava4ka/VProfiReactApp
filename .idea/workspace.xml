@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TabsPanel/AllSpecializations.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TabsPanel/SpecialtySpecialization.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/AllSpecializations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/AllSpecializations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/SpecialtySpecialization.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/SpecialtySpecialization.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.css" afterDir="false" />
     </list>
@@ -149,7 +150,10 @@
       <workItem from="1574072851144" duration="804000" />
       <workItem from="1574245984455" duration="27036000" />
       <workItem from="1574421926040" duration="6370000" />
-      <workItem from="1574431526737" duration="3784000" />
+      <workItem from="1574431526737" duration="4874000" />
+      <workItem from="1574533193244" duration="1370000" />
+      <workItem from="1574545357494" duration="28000" />
+      <workItem from="1574613908220" duration="10999000" />
     </task>
     <servers />
   </component>

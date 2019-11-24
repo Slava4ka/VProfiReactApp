@@ -90,7 +90,10 @@ const TabsPanel = ({tabsPanelVisible}) => {
                         <div className={style.specialtySpecialization}>
                             {
                                 (showAllSpecializations.status === true) ?
-                                    <AllSpecializations/> :
+                                    <AllSpecializations
+                                        showAllSpecializations={showAllSpecializations}
+                                        getCurrentSpecializations={getCurrentSpecializations}
+                                    /> :
                                     <SpecialtySpecialization currentTabsState={currentTabsState}
                                                              getCurrentSpecializations={getCurrentSpecializations}
                                                              setSpecializationsView={setSpecializationsView}

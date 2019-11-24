@@ -35,7 +35,7 @@
     width: 300px;
     height: 100%;
     margin-left: -9px;
-    border-right: 1px solid rgba(0, 0, 0, .09);
+  /*  border-right: 1px solid rgba(0, 0, 0, .09);*/
 }
 
 @media screen and (min-width: 768px) {
@@ -118,7 +118,7 @@
     text-decoration: none;
 }
 
-.styleBoxForSpecializationsView{
+.styleBoxForSpecializationsView {
 
 }
 
@@ -130,7 +130,7 @@
     margin-bottom: 10px;
 }
 
-.arrowBack:hover{
+.arrowBack:hover {
     color: red;
 }
 
@@ -157,9 +157,16 @@
     text-decoration: none;
 }
 
+
 .specializations {
     display: flex;
     flex-direction: column;
+}
+
+.allSpecializations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .specialization {
@@ -172,4 +179,9 @@
 .specialization:hover {
     color: red;
     text-decoration: none;
+}
+
+.oneLine {
+    margin-right: 10px;
+    margin-bottom: 5px;
 }

@@ -32,7 +32,6 @@ const SpecialtySpecialization = ({currentTabsState, getCurrentSpecializations, s
                                 (getCurrentSpecializations(specialty.id).length > 8 && specialty.name !== false && specialty.haveChild === true) ?
                                     createSpecializationsContent(getCurrentSpecializations(specialty.id).slice(0, 8), true, specialty) :
                                     createSpecializationsContent(getCurrentSpecializations(specialty.id))
-
                             }
                         </div>
                     </div>))
