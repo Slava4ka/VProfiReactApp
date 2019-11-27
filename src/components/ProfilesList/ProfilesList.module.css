@@ -1,0 +1,108 @@
+/* Profile */
+.profilesMainBlock {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    margin: 15px 0 15px 0;
+}
+
+.headers {
+    height: 60px;
+
+    width: 100%;
+    background-color: rgb(215, 245, 218);
+    border-bottom: 1px solid #e7e8ec;
+    border-radius: 4px 4px 0 0;
+}
+
+.address {
+    padding: 13px 0 0 20px;
+}
+
+.sorts {
+    width: 100%;
+    border-bottom: 1px solid #e7e8ec;
+    border-radius: 4px 4px 0 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profilesList {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* AdvertiserFilter */
+
+.advertiserTypeFilters {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 15px 0 10px 25px;
+}
+
+.advertiserType, .optionType {
+    height: 33px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    padding: 6px 13px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    user-select: none;
+}
+
+.advertiserType:first-child, .optionType:first-child {
+    margin: 0 -1px 0 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.advertiserType:last-child, .optionType:last-child {
+    margin: 0 0 0 -1px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+.advertiserType:hover, .optionType:hover {
+    background-color: #f5f5f5;
+    border-color: #ccc;
+}
+
+.activeFilter {
+    -webkit-box-shadow: inset 0 2px 2px 0 #ccc;
+    box-shadow: inset 0 2px 2px 0 #ccc;
+    border-color: #ccc;
+    background-color: #e0e0e0 !important;
+}
+
+/* OptionFilter */
+
+.optionFilter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px 25px 10px 0;
+}
+
+.optionTypeFilters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+/* ProfileItem */
+
+.profile {
+    height: 250px;
+    margin: 10px 10px 0 10px;
+    border: 1px solid #e7e8ec;
+    border-radius: 4px;
+}
+
+.profile:hover {
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}

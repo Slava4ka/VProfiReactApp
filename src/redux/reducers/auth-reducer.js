@@ -104,8 +104,14 @@ export const getAuthUserStatus = () => {
             }
         }).catch(error => {
             setAuthUserStatus(false);
-            console.log(error.response.status === 401 ? "аутентификация не выполнена"
-                : `error code is ${error.response.status}`);
+            console.log(error);
+            if (error.response) {
+                console.log(error.response.status === 401 ? "аутентификация не выполнена"
+                    : `error code is ${error.response.status}`);
+            } else {
+                //??????
+                console.log("Нет связи с сервером");
+            }
         })
     }
 };

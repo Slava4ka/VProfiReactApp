@@ -18,6 +18,7 @@ import InitialPreloader from "./components/common/Preloader/InitialPreloader";
 import {SuccessAlert} from "./components/common/Alerts/Alerts";
 import {setStatusToNewUserAlert} from "./redux/reducers/signUpAndIn-reducer";
 import Catalog from "./forTesting/Сatalog/Сatalog";
+import ProfilesList from "./components/ProfilesList/ProfilesList";
 
 function App({initialized, newUserAlert, setStatusToNewUserAlert}) {
 
@@ -55,6 +56,8 @@ function App({initialized, newUserAlert, setStatusToNewUserAlert}) {
 
                     <Route path={'/signIn'}
                            render={() => (<SignIn hideHeader={hideHeader} showHeader={showHeader}/>)}/>
+
+                    <Route path={'/profiles'} render={() => <ProfilesList/>}/>
 
                     {/*тестирование*/}
                     <Route path={'/carousel'} render={() => (<CarouselTest/>)}/>

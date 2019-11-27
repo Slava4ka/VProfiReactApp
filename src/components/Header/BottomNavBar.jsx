@@ -16,7 +16,7 @@ const BottomNavBar = ({openCloseTabs}) => {
                         </div>
                     </Col>
                     <Col sm={12} md={10}>
-                        <SimpleSlider/>
+                        {        /*                <SimpleSlider/> */}
                     </Col>
                 </Row>
             </Container>
