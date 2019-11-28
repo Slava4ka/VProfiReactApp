@@ -22,7 +22,7 @@ const TopNavBar = ({topNavBarHide, isAuth, logOut}) => {
                 className={(!topNavBarHide) ? style.hide : style.topNavBar}>
 
             <Navbar.Brand href="#">
-                <img src={"5551.png"} alt={"vProfi_logo"} width={"150"} height={"50"}/>
+                {/*<img src={"5551.png"} alt={"vProfi_logo"} width={"150"} height={"50"}/>*/}
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>

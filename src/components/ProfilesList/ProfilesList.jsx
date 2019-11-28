@@ -44,7 +44,7 @@ const ProfilesList = () => {
                     <div className={style.profilesMainBlock}>
 
                         <div className={style.headers}>
-                            <h5 className={style.address}>
+                            <h5 className={style.addressFolder}>
                                 Медицина <IoIosArrowRoundForward/> Врачи
                             </h5>
                         </div>
