@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/VProfiReactApp/static/css/main.303269aa.chunk.css",
-    "main.js": "/VProfiReactApp/static/js/main.9bb6c69f.chunk.js",
-    "main.js.map": "/VProfiReactApp/static/js/main.9bb6c69f.chunk.js.map",
+    "main.css": "/VProfiReactApp/static/css/main.46e2ff6b.chunk.css",
+    "main.js": "/VProfiReactApp/static/js/main.29554cc1.chunk.js",
+    "main.js.map": "/VProfiReactApp/static/js/main.29554cc1.chunk.js.map",
     "runtime-main.js": "/VProfiReactApp/static/js/runtime-main.6fc3858d.js",
     "runtime-main.js.map": "/VProfiReactApp/static/js/runtime-main.6fc3858d.js.map",
-    "static/css/2.c175c33d.chunk.css": "/VProfiReactApp/static/css/2.c175c33d.chunk.css",
-    "static/js/2.5da9de9e.chunk.js": "/VProfiReactApp/static/js/2.5da9de9e.chunk.js",
-    "static/js/2.5da9de9e.chunk.js.map": "/VProfiReactApp/static/js/2.5da9de9e.chunk.js.map",
+    "static/css/2.7d98d90f.chunk.css": "/VProfiReactApp/static/css/2.7d98d90f.chunk.css",
+    "static/js/2.7e8564ca.chunk.js": "/VProfiReactApp/static/js/2.7e8564ca.chunk.js",
+    "static/js/2.7e8564ca.chunk.js.map": "/VProfiReactApp/static/js/2.7e8564ca.chunk.js.map",
     "index.html": "/VProfiReactApp/index.html",
-    "precache-manifest.718ea1e38b007c2010b79274e7f55896.js": "/VProfiReactApp/precache-manifest.718ea1e38b007c2010b79274e7f55896.js",
+    "precache-manifest.3f32127faacb4ac983c42d1a01184da9.js": "/VProfiReactApp/precache-manifest.3f32127faacb4ac983c42d1a01184da9.js",
     "service-worker.js": "/VProfiReactApp/service-worker.js",
-    "static/css/2.c175c33d.chunk.css.map": "/VProfiReactApp/static/css/2.c175c33d.chunk.css.map",
-    "static/css/main.303269aa.chunk.css.map": "/VProfiReactApp/static/css/main.303269aa.chunk.css.map",
+    "static/css/2.7d98d90f.chunk.css.map": "/VProfiReactApp/static/css/2.7d98d90f.chunk.css.map",
+    "static/css/main.46e2ff6b.chunk.css.map": "/VProfiReactApp/static/css/main.46e2ff6b.chunk.css.map",
     "static/media/slick-theme.css": "/VProfiReactApp/static/media/slick.f97e3bbf.svg"
   }
 }
