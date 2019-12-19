@@ -36,7 +36,6 @@ const signUpAndInReducer = (state = initialState, action) => {
         }
 
         case CLEAN_ERROR_STACK: {
-        debugger
             return {...state, errorsStack: [], errors: false}
         }
 

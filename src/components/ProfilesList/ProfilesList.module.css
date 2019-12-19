@@ -1,49 +1,24 @@
-/* Profile */
-.profilesMainBlock {
-    width: 100%;
-    border-radius: 4px;
-    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
-    margin: 15px 0 15px 0;
-}
-
-.headers {
-    height: 60px;
-
-    width: 100%;
-    background-color: rgb(215, 245, 218);
-    border-bottom: 1px solid #e7e8ec;
-    border-radius: 4px 4px 0 0;
-}
-
-.addressFolder {
-    padding: 13px 0 0 20px;
-}
-
-.sorts {
-    width: 100%;
-    border-bottom: 1px solid #e7e8ec;
-    border-radius: 4px 4px 0 0;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .profilesList {
-    margin-top: 30px;
+    margin-top: 8px;
     padding-bottom: 20px;
 }
 
-/* AdvertiserFilter */
+/* OptionFilter */
 
-.advertiserTypeFilters {
+.optionFilter {
     display: flex;
-    flex-wrap: nowrap;
-    margin: 15px 0 10px 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px 25px 10px 5px;
 }
 
-.advertiserType, .optionType {
+.optionTypeFilters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.optionType, .paramsFilterButton {
     height: 33px;
     font-size: 14px;
     line-height: 16px;
@@ -54,20 +29,20 @@
     user-select: none;
 }
 
-.advertiserType:first-child, .optionType:first-child {
+.optionType:first-child {
     margin: 0 -1px 0 0;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 
-.advertiserType:last-child, .optionType:last-child {
+.optionType:last-child {
     margin: 0 0 0 -1px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 
 }
 
-.advertiserType:hover, .optionType:hover {
+.optionType:hover, .paramsFilterButton:hover {
     background-color: #f5f5f5;
     border-color: #ccc;
 }
@@ -79,19 +54,31 @@
     background-color: #e0e0e0 !important;
 }
 
-/* OptionFilter */
+/* ParamsFilter */
 
-.optionFilter {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 15px 25px 10px 0;
+.paramsFilterButton {
+    margin: 15px 0 10px 25px;
+    border-radius: 3px;
 }
 
-.optionTypeFilters {
+.paramsFilterButton svg {
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.paramsFilterButton span {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 25px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.paramsFilter {
+    height: 300px;
+    margin: 10px 10px 0 10px;
+    padding-bottom: 10px;
+    border: 1px solid #e7e8ec;
+    border-radius: 4px;
 }
 
 /* ProfileItem */
@@ -102,7 +89,6 @@
     padding-bottom: 10px;
     border: 1px solid #e7e8ec;
     border-radius: 4px;
-
 }
 
 .profile:hover {
@@ -111,7 +97,7 @@
 
 .mediaData, .infoData, .contactData {
     height: 100%;
-  /*  border: 1px solid black; */
+    /*  border: 1px solid black; */
 }
 
 .label {
@@ -192,7 +178,6 @@
     margin: 0 10px 10px 10px;
     display: flex;
     flex-direction: column;
-
 }
 
 .workExperience {
@@ -241,26 +226,26 @@
     margin-right: 20px;
 }
 
-.buttons button{
+.buttons button {
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.socialShare{
+.socialShare {
 
 }
 
-.socialShare span{
+.socialShare span {
     cursor: pointer;
     margin: 3px;
 }
 
-.socialShare span svg{
-  height: 1.5em;
-  width: 1.5em;
+.socialShare span svg {
+    height: 1.5em;
+    width: 1.5em;
 }
 
-.socialShare span:hover{
+.socialShare span:hover {
     color: #afafaf;
 }
 

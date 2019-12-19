@@ -1,0 +1,130 @@
+.profile {
+  margin: 10px 10px 0 10px;
+  padding-bottom: 10px;
+  border: 1px solid #e7e8ec;
+  border-radius: 4px;
+
+  &:hover {
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+  }
+}
+
+.mediaData, .infoData, .contactData {
+  height: 100%;
+}
+
+.label {
+  color: #4F4F4F;
+}
+
+.mediaData {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.infoData {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+
+  .fullName {
+    margin: 10px 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .surname {
+  }
+
+  .namePatronymic {
+
+  }
+
+  .directionSpecialitySpecialization {
+    margin: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ratingAndCommentCounterBox {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    .rating, .commentsCounter {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .rating {
+      text-align: center;
+      border-right: 1px solid #4F4F4F;
+      padding-right: 10px;
+    }
+
+    .commentsCounter {
+      text-align: center;
+      padding-left: 10px;
+    }
+
+    .count {
+      font-weight: 700;
+      font-size: 22pt;
+      color: rgb(50, 148, 63)
+    }
+  }
+}
+
+/* -- contactData -- */
+
+.contactData {
+  display: flex;
+  flex-direction: column;
+}
+
+.organization {
+  margin: 10px;
+}
+
+.address {
+  margin: 0 10px 10px 10px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 10px 10px;
+}
+
+.socialShare span {
+  cursor: pointer;
+  margin: 3px;
+}
+
+.socialShare span svg {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.socialShare span:hover {
+  color: #afafaf;
+}
+
+.lastMonthReviews {
+  margin: auto 10px 5px;
+}
+
+
+

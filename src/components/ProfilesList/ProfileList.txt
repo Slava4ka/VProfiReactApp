@@ -1,0 +1,283 @@
+import React, {useState} from 'react';
+import style from './ProfilesList.module.css';
+import {IoIosArrowRoundForward} from "react-icons/io";
+import {FiChevronsDown, FiChevronsUp} from "react-icons/fi";
+import {Col, Container, Row} from "react-bootstrap";
+import ProfileItem from "./ProfileItem";
+import OptionFilter from "./OptionFilter";
+import ParamsFilter from "./ParamsFilter";
+
+const ProfilesList = () => {
+
+    const [temp, setTemp] = useState(false);
+
+    const [paramsFilter, setParamsFilter] = useState(false);
+
+    const [optionTypeFilter, setOptionTypeFilter] = useState({
+        Date: true,
+        Rating: false,
+        Experience: false,
+        Cost: false
+    });
+
+    // тут я использую замыкание для предотвращения дублирования кода обработки выбора фильтра. В колбеке предедается
+    // объект с состояниями и функция, которая его меняет (useState), а в компоненте в функцию передается текущий фильтр
+    // надо подумать
+    const changeFilter = (typeFilter, setFilterFunction) => {
+
+        return (activeFilter) => {
+            let currentFilerState = typeFilter;
+            for (let filter in currentFilerState) {
+                if (currentFilerState.hasOwnProperty(filter)) {
+                    (activeFilter.toString() === filter.toString()) ? currentFilerState[filter] = true : currentFilerState[filter] = false
+                }
+            }
+            setFilterFunction(JSON.parse(JSON.stringify(currentFilerState)));
+        }
+    };
+
+    setTimeout(setTemp, 3000, true);
+
+    return (
+        <Container>
+            <Row>
+                <Col>
+                    <div className={style.profilesMainBlock}>
+
+                        <div className={style.headers}>
+                            <h5 className={style.addressFolder}>
+                                Медицина <IoIosArrowRoundForward/> Врачи
+                            </h5>
+                        </div>
+
+                        <div className={style.sorts}>
+                            {/*
+                                <div
+                                    className={(paramsFilter) ? `${style.paramsFilterButton} ${style.activeFilter}` : `${style.paramsFilterButton}`}
+                                    onClick={() => setParamsFilter(!paramsFilter)}>
+                                <span>
+                                    {(paramsFilter) ? <FiChevronsUp/> : <FiChevronsDown/>}
+                                    <p>Фильтры</p>
+                                </span>
+                                </div>
+                            */}
+                            <OptionFilter optionTypeFilter={optionTypeFilter}
+                                          changeOptionFilter={changeFilter(optionTypeFilter, setOptionTypeFilter)}/>
+
+                        </div>
+
+                        {paramsFilter && <ParamsFilter/>}
+
+                        <div className={style.profilesList}>
+                            <ProfileItem isLoaded={temp}/>
+                            <ProfileItem isLoaded={temp}/>
+                            <ProfileItem isLoaded={temp}/>
+                            <ProfileItem isLoaded={temp}/>
+                        </div>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
+    )
+};
+export default ProfilesList
+
+
+
+import React, {useState, useRef} from 'react';
+import style from './ProfilesList.module.css';
+import onLoadStyle from './OnLoadProfileItem.module.css';
+import {FiUser, FiShare, FiStar, FiMail} from "react-icons/fi";
+import {FaStar, FaVk, FaFacebook, FaOdnoklassniki, FaTwitter} from "react-icons/fa";
+import {Button, Col, Container, Overlay, Row, Tooltip} from "react-bootstrap";
+
+
+const ProfileItem = ({isLoaded}) => {
+
+    return (
+        isLoaded ? <ReadyProfileItem/> : <OnLoadProfileItem/>
+    )
+};
+
+const OnLoadProfileItem = () => {
+    return <div className={style.profile}>
+        <Container fluid={true} style={{marginTop: '10px'}}>
+            <Row noGutters={true}>
+                <Col md={2}>
+
+                    <div className={style.mediaData}>
+                        <div className={style.avatar}>
+                            <div className={onLoadStyle.imgCap}/>
+                        </div>
+                        <div className={style.ratingAndCommentCounterBox}>
+                            <div className={style.rating}>
+                                <div className={onLoadStyle.ratingAndCommentsCap}/>
+                            </div>
+                            <div className={style.commentsCounter}>
+                                <div className={onLoadStyle.ratingAndCommentsCap}/>
+                            </div>
+                        </div>
+                    </div>
+
+                </Col>
+
+                <Col md={5}>
+                    <div className={style.infoData}>
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={`${style.surname} ${onLoadStyle.lineCap}`}/>
+                            <span className={`${style.namePatronymic} ${onLoadStyle.lineCap}`}/>
+                        </div>
+
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={onLoadStyle.lineCap}/>
+                            <span className={onLoadStyle.lineCap}/>
+                            <span className={onLoadStyle.lineCap}/>
+                        </div>
+
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={onLoadStyle.lineCap}/>
+                        </div>
+
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={onLoadStyle.lineCap}/>
+                        </div>
+
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={onLoadStyle.lineCap}/>
+                        </div>
+
+                    </div>
+
+                </Col>
+
+                <Col md={5}>
+                    <div className={style.contactData}>
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={onLoadStyle.lineCap}/>
+                        </div>
+
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={onLoadStyle.lineCap}/>
+                            <span className={onLoadStyle.lineCap}/>
+                        </div>
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={onLoadStyle.lineCap}/>
+                            <span className={onLoadStyle.lineCap}/>
+                            <span className={onLoadStyle.lineCap}/>
+                        </div>
+
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={onLoadStyle.buttons}/>
+                        </div>
+
+                        <div className={onLoadStyle.divLineCap}>
+                            <span className={onLoadStyle.lineCap}/>
+                        </div>
+                    </div>
+                </Col>
+            </Row>
+
+        </Container>
+    </div>
+};
+
+const ReadyProfileItem = () => {
+
+    const [show, setShow] = useState(false);
+    const target = useRef(null);
+
+    return <div className={style.profile}>
+        <Container fluid={true} style={{marginTop: '10px'}}>
+            <Row noGutters={true}>
+                <Col md={2}>
+
+                    <div className={style.mediaData}>
+                        <div className={style.avatar}>
+                            <FiUser style={{width: '170px', height: '170px'}}/>
+                        </div>
+                        <div className={style.ratingAndCommentCounterBox}>
+                            <div className={style.rating}>
+                                <span className={style.count}>5,0</span>
+                                <span className={style.label}>Рейтинг</span>
+                            </div>
+                            <div className={style.commentsCounter}>
+                                <span className={style.count}>99</span>
+                                <span className={style.label}>Отзывов</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </Col>
+
+                <Col md={5}>
+
+                    <div className={style.infoData}>
+
+                        <div className={style.fullName}>
+                            <span className={style.surname}>Фамилия</span>
+                            <span className={style.namePatronymic}>Имя Отчество</span>
+                        </div>
+
+                        <div className={style.directionSpecialitySpecialization}>
+                            <span>Направление</span>
+                            <span>Специальность</span>
+                            <span>Специалтзация</span>
+                        </div>
+
+                    </div>
+
+                </Col>
+
+                <Col md={5}>
+                    <div className={style.contactData} onMouseLeave={() => setShow(false)}>
+                        <div className={style.organization}>
+                            <span>Название организации</span>
+                        </div>
+                        <div className={style.address}>
+                            Адрес организации, к примеру: 344025 г. Назрань, пропект мира 48/7
+                        </div>
+
+                        <div className={style.contacts}>
+                            <span>Контакты</span>
+                            <span className={style.label}>Телефон:  <a
+                                href="tel:+71234567890">+7(123)-456-78-90</a></span>
+                            <span className={style.label}>Эл. почта: <a
+                                href="mailto:kakayatoPachta@yandex.ru?subject=Vprofi">kakayatoPachta@yandex.ru</a></span>
+                        </div>
+                        <div className={style.buttons}>
+                            <Button variant="success">Написать сообщение</Button>
+                            <Button variant="warning" title={'В избранное'}><FiStar size={'1.5em'}/></Button>
+
+                            {/*<Button variant="warning" title={'Из избранного'}><FaStar size={'1.5em'}/></Button>*/}
+
+                            <Button variant="secondary" title={'Поделиться'} ref={target}
+                                    onClick={() => setShow(!show)}><FiShare
+                                size={'1.5em'}/></Button>
+                            <Overlay target={target.current} show={show} placement="bottom">
+                                {props => (
+                                    <Tooltip id="overlay-example" {...props}>
+                                        <div className={style.socialShare}>
+                                            <span title={'поделиться в ВК'}><FaVk/></span>
+                                            <span title={'поделиться в Facebook'}> <FaFacebook/></span>
+                                            <span
+                                                title={'поделиться в Одноклассниках'}><FaOdnoklassniki/></span>
+                                            <span title={'поделиться в Twitter'}><FaTwitter/></span>
+                                            <span title={'поделиться по эл. почте'}> <FiMail/></span>
+                                        </div>
+                                    </Tooltip>
+                                )}
+                            </Overlay>
+                        </div>
+
+                        <div className={style.lastMonthReviews}>
+                            <span className={style.label}>За последний месяц опубликовано 5 отзывов</span>
+                        </div>
+                    </div>
+                </Col>
+            </Row>
+
+        </Container>
+    </div>
+};
+
+export default ProfileItem

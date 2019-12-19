@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileList.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfilesList/inFuture/ParamsFilter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Breadcrumbs/Breadcrumbs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Breadcrumbs/Breadcrumbs.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/SassTesting/SassTesting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/SassTesting/SassTesting.module.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTesting/SassTesting/ScssTesting.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/TopNavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TopNavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/AdvertiserFilter.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/signUpAndIn-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/signUpAndIn-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +32,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Sass File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -30,11 +46,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_test" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -157,7 +176,23 @@
       <workItem from="1574719570372" duration="20512000" />
       <workItem from="1574846248359" duration="2814000" />
       <workItem from="1574849625398" duration="16563000" />
-      <workItem from="1574964532788" duration="6343000" />
+      <workItem from="1574964532788" duration="11445000" />
+      <workItem from="1575041402564" duration="1054000" />
+      <workItem from="1575045897292" duration="2425000" />
+      <workItem from="1575061232120" duration="174000" />
+      <workItem from="1575061697725" duration="6268000" />
+      <workItem from="1575311174687" duration="5847000" />
+      <workItem from="1575369747653" duration="583000" />
+      <workItem from="1575376160143" duration="23111000" />
+      <workItem from="1575495054009" duration="42000" />
+      <workItem from="1575568038786" duration="7236000" />
+      <workItem from="1575640730908" duration="564000" />
+      <workItem from="1575896700636" duration="9912000" />
+      <workItem from="1576146626376" duration="601000" />
+      <workItem from="1576158982863" duration="225000" />
+      <workItem from="1576497928098" duration="896000" />
+      <workItem from="1576783018988" duration="235000" />
+      <workItem from="1576787382882" duration="3744000" />
     </task>
     <servers />
   </component>

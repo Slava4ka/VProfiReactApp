@@ -19,6 +19,7 @@ import {SuccessAlert} from "./components/common/Alerts/Alerts";
 import {setStatusToNewUserAlert} from "./redux/reducers/signUpAndIn-reducer";
 import Catalog from "./forTesting/Сatalog/Сatalog";
 import ProfilesList from "./components/ProfilesList/ProfilesList";
+import SassTesting from "./forTesting/SassTesting/SassTesting";
 
 function App({initialized, newUserAlert, setStatusToNewUserAlert}) {
 
@@ -66,6 +67,8 @@ function App({initialized, newUserAlert, setStatusToNewUserAlert}) {
                     <Route path={'/index'} render={() => (<Main/>)}/>
                     <Route path={'/scroll'} render={() => (<ScrollPage/>)}/>
                     <Route path={'/catalog'} render={() => (<Catalog/>)}/>
+
+                    <Route path={'/sassTest'} render={() => (<SassTesting/>)}/>
 
                     {
                         newUserAlert &&

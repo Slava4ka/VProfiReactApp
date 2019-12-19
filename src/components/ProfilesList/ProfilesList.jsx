@@ -1,18 +1,18 @@
 import React, {useState} from 'react';
 import style from './ProfilesList.module.css';
+import styles from './ProfilesList.module.scss'
+
 import {IoIosArrowRoundForward} from "react-icons/io";
+import {FiChevronsDown, FiChevronsUp} from "react-icons/fi";
 import {Col, Container, Row} from "react-bootstrap";
 import ProfileItem from "./ProfileItem";
-import AdvertiserFilter from "./AdvertiserFilter";
 import OptionFilter from "./OptionFilter";
+import ParamsFilter from "./inFuture/ParamsFilter";
+import Breadcrumbs from "../common/Breadcrumbs/Breadcrumbs";
 
 const ProfilesList = () => {
 
-    const [advertiserTypeFilter, setAdvertiserTypeFilter] = useState({
-        All: true,
-        Individual: false,
-        Companies: false
-    });
+    const [temp, setTemp] = useState(false);
 
     const [optionTypeFilter, setOptionTypeFilter] = useState({
         Date: true,
@@ -37,23 +37,21 @@ const ProfilesList = () => {
         }
     };
 
+    setTimeout(setTemp, 1000, true);
+
     return (
         <Container>
             <Row>
                 <Col>
-                    <div className={style.profilesMainBlock}>
+                    <div className={styles.profilesMainBlock}>
 
-                        <div className={style.headers}>
-                            <h5 className={style.addressFolder}>
-                                Медицина <IoIosArrowRoundForward/> Врачи
-                            </h5>
+                        <div className={styles.headers}>
+
+                            <Breadcrumbs crumbs={[{name: "Медицина", link: "www"}, {name: "Врачи", link: "www"}]} goToCategory={(a)=>console.log(a)}/>
+
                         </div>
 
-                        <div className={style.sorts}>
-
-                            <AdvertiserFilter
-                                advertiserTypeFilter={advertiserTypeFilter}
-                                changeAdvertiserFilter={changeFilter(advertiserTypeFilter, setAdvertiserTypeFilter)}/>
+                        <div className={styles.sorts}>
 
                             <OptionFilter optionTypeFilter={optionTypeFilter}
                                           changeOptionFilter={changeFilter(optionTypeFilter, setOptionTypeFilter)}/>
@@ -61,10 +59,10 @@ const ProfilesList = () => {
                         </div>
 
                         <div className={style.profilesList}>
-                            <ProfileItem/>
-                            <ProfileItem/>
-                            <ProfileItem/>
-                            <ProfileItem/>
+                            <ProfileItem isLoaded={temp}/>
+                            <ProfileItem isLoaded={temp}/>
+                            <ProfileItem isLoaded={temp}/>
+                            <ProfileItem isLoaded={temp}/>
                         </div>
                     </div>
                 </Col>

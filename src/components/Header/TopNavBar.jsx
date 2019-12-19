@@ -22,7 +22,7 @@ const TopNavBar = ({topNavBarHide, isAuth, logOut}) => {
                 className={(!topNavBarHide) ? style.hide : style.topNavBar}>
 
             <Navbar.Brand href="#">
-                {/*<img src={"5551.png"} alt={"vProfi_logo"} width={"150"} height={"50"}/>*/}
+                <img src={"5551.png"} alt={"vProfi_logo"} width={"150"} height={"50"}/>
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
@@ -35,13 +35,11 @@ const TopNavBar = ({topNavBarHide, isAuth, logOut}) => {
                     <Button variant="outline-primary">Искать</Button>
                 </Form>
 
-
-                <div className={`mr-lg-auto ${style.geo}`}>
+                    <div className={`mr-lg-auto ${style.geo}`}>
                     <span style={{cursor: "pointer"}}><img src="geofence_5400.ico" alt="" width='25px'/>
                     Республика Ингушетия
                     </span>
-                </div>
-
+                    </div>
                 {globalActions}
 
             </Navbar.Collapse>
