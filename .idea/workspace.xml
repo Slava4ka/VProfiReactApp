@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfilesList/inFuture/ParamsFilter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Breadcrumbs/Breadcrumbs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Breadcrumbs/Breadcrumbs.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/SassTesting/SassTesting.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/SassTesting/SassTesting.module.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/SassTesting/ScssTesting.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/TopNavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TopNavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/AdvertiserFilter.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/signUpAndIn-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/signUpAndIn-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/additional_data/ProfilesList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/AllSpecializations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/AllSpecializations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MyButtonsGroup/MyButtonsGroup.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MyButtonsGroup/MyButtonsGroup.module.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/avatars" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -58,22 +51,23 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Slava\WebstormProjects\vprofiapp\node_modules\prettier" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\components\ProfilesList\additional_data" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\components\common\MyButtonsGroup" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\components\ProfilesList\inFuture" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\Slick" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\Carousel" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\avatars" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\redux\reducers" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\preloaders" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\dirty_code\reducers" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\preholder" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\avatars" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\Slick" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\forTesting\Carousel" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\courusel_test" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,7 +186,7 @@
       <workItem from="1576158982863" duration="225000" />
       <workItem from="1576497928098" duration="896000" />
       <workItem from="1576783018988" duration="235000" />
-      <workItem from="1576787382882" duration="3744000" />
+      <workItem from="1576787382882" duration="19776000" />
     </task>
     <servers />
   </component>

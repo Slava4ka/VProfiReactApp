@@ -1,3 +1,11 @@
+@mixin flexing($flexDirection: row, $flexWrap: wrap, $alignItems: flex-start,  $justifyContent: flex-start) {
+  display: flex;
+  flex-wrap: $flexWrap;
+  flex-direction: $flexDirection;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+}
+
 .profile {
   margin: 10px 10px 0 10px;
   padding-bottom: 10px;
@@ -19,29 +27,28 @@
 
 .mediaData {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  @include flexing(column, wrap, center, center);
 
   .avatar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 250px;
+    @include flexing(row, wrap, center, center);
+    max-width: 250px;
     height: 250px;
+
+    img {
+      width: 95%;
+      height: 95%;
+    }
   }
 }
 
 .infoData {
-  display: flex;
-  flex-direction: column;
+  @include flexing(column);
   margin-left: 10px;
 
   .fullName {
     margin: 10px 10px 10px 0;
-    display: flex;
-    flex-direction: column;
+    @include flexing(column);
+
   }
 
   .surname {
@@ -53,19 +60,15 @@
 
   .directionSpecialitySpecialization {
     margin: 0 10px 10px 0;
-    display: flex;
-    flex-direction: column;
+    @include flexing(column);
   }
 
   .ratingAndCommentCounterBox {
     margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
+    @include flexing();
 
     .rating, .commentsCounter {
-      display: flex;
-      flex-direction: column;
+      @include flexing(column);
     }
 
     .rating {
@@ -87,44 +90,42 @@
   }
 }
 
-/* -- contactData -- */
-
 .contactData {
-  display: flex;
-  flex-direction: column;
-}
+  @include flexing(column);
 
-.organization {
-  margin: 10px;
-}
+  .organization {
+    margin: 10px;
+  }
 
-.address {
-  margin: 0 10px 10px 10px;
-}
+  .address {
+    margin: 0 10px 10px 10px;
+  }
 
-.contacts {
-  display: flex;
-  flex-direction: column;
-  margin: 0 10px 10px 10px;
-}
+  .contacts {
+    @include flexing(column);
+    margin: 0 10px 10px 10px;
+  }
 
-.socialShare span {
-  cursor: pointer;
-  margin: 3px;
-}
+  .socialShare span {
+    cursor: pointer;
+    margin: 3px;
+  }
 
-.socialShare span svg {
-  height: 1.5em;
-  width: 1.5em;
-}
+  .socialShare span svg {
+    height: 1.5em;
+    width: 1.5em;
+  }
 
-.socialShare span:hover {
-  color: #afafaf;
-}
+  .socialShare span {
 
-.lastMonthReviews {
-  margin: auto 10px 5px;
-}
+    &:hover {
+      color: #afafaf;
+    }
+  }
 
+  .lastMonthReviews {
+    margin: auto 10px 5px;
+  }
+}
 
 
