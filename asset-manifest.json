@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/VProfiReactApp/static/css/main.5420b530.chunk.css",
-    "main.js": "/VProfiReactApp/static/js/main.572ffc35.chunk.js",
-    "main.js.map": "/VProfiReactApp/static/js/main.572ffc35.chunk.js.map",
+    "main.css": "/VProfiReactApp/static/css/main.c992d5c8.chunk.css",
+    "main.js": "/VProfiReactApp/static/js/main.0875bddf.chunk.js",
+    "main.js.map": "/VProfiReactApp/static/js/main.0875bddf.chunk.js.map",
     "runtime-main.js": "/VProfiReactApp/static/js/runtime-main.6fc3858d.js",
     "runtime-main.js.map": "/VProfiReactApp/static/js/runtime-main.6fc3858d.js.map",
     "static/css/2.7d98d90f.chunk.css": "/VProfiReactApp/static/css/2.7d98d90f.chunk.css",
-    "static/js/2.b1ebf426.chunk.js": "/VProfiReactApp/static/js/2.b1ebf426.chunk.js",
-    "static/js/2.b1ebf426.chunk.js.map": "/VProfiReactApp/static/js/2.b1ebf426.chunk.js.map",
+    "static/js/2.8b8a4f7d.chunk.js": "/VProfiReactApp/static/js/2.8b8a4f7d.chunk.js",
+    "static/js/2.8b8a4f7d.chunk.js.map": "/VProfiReactApp/static/js/2.8b8a4f7d.chunk.js.map",
     "index.html": "/VProfiReactApp/index.html",
-    "precache-manifest.d89f2c4f101220547498254f8320bf15.js": "/VProfiReactApp/precache-manifest.d89f2c4f101220547498254f8320bf15.js",
+    "precache-manifest.e050ebb464666d476b4b78f61953f4c4.js": "/VProfiReactApp/precache-manifest.e050ebb464666d476b4b78f61953f4c4.js",
     "service-worker.js": "/VProfiReactApp/service-worker.js",
     "static/css/2.7d98d90f.chunk.css.map": "/VProfiReactApp/static/css/2.7d98d90f.chunk.css.map",
-    "static/css/main.5420b530.chunk.css.map": "/VProfiReactApp/static/css/main.5420b530.chunk.css.map",
+    "static/css/main.c992d5c8.chunk.css.map": "/VProfiReactApp/static/css/main.c992d5c8.chunk.css.map",
     "static/media/slick-theme.css": "/VProfiReactApp/static/media/slick.f97e3bbf.svg"
   }
 }
