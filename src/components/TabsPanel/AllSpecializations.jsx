@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './TabsPanel.module.css'
+import style2 from './_column.module.scss'
 
 const AllSpecializations = ({
 	showAllSpecializations,
@@ -10,13 +11,13 @@ const AllSpecializations = ({
 	).map(specialization => specialization.name)
 
 	return (
-		<div className={style.allSpecializations}>
-			{specializations.map(specialization => (
-				<span className={style.oneLine}>
+		<div className={`${style.allSpecializations} ${style2.allSpecializations}`}>
+			{specializations.map((specialization, id) => (
+				<div key={id} className={style.oneLine}>
 					<a href='#' className={style.specialization}>
 						{specialization}
 					</a>
-				</span>
+				</div>
 			))}
 		</div>
 	)

@@ -1,14 +1,13 @@
-import React, {useState, useEffect} from 'react';
-import styles from './Header.module.css';
-import TopNavBar from "./TopNavBar";
-import BottomNavBar from "./BottomNavBar";
-import TabsPanel from "../TabsPanel/TabsPanel";
+import React, { useState, useEffect } from 'react'
+import styles from './Header.module.css'
+import TopNavBar from './TopNavBar'
+import BottomNavBar from './BottomNavBar'
+import TabsPanel from '../TabsPanel/TabsPanel'
 
-const Header = ({isHeaderVisible}) => {
+const Header = ({ isHeaderVisible }) => {
+	const [topNavBarHide, setTopNavBarHide] = useState(true)
 
-    const [topNavBarHide, setTopNavBarHide] = useState(true);
-
-    /*
+	/*
     useEffect(() => {
         window.addEventListener('scroll', function () {
             let navbarSize = document.getElementById('commonNavBar').offsetHeight;
@@ -18,7 +17,7 @@ const Header = ({isHeaderVisible}) => {
             console.log("navbarSize " + navbarSize + "px");
             console.log("scrollTop " + scrollTop);
             */
-/*
+	/*
             if (scrollTop > navbarSize) {
                 setTopNavBarHide(false)
             } else {
@@ -28,25 +27,28 @@ const Header = ({isHeaderVisible}) => {
         });
     });
 */
-    const [tabsPanelVisible, setTabsPanelVisible] = useState(false);
+	const [tabsPanelVisible, setTabsPanelVisible] = useState(false)
 
-    const openCloseTabs = () => {
-        console.log("openCloseTabs");
-        setTabsPanelVisible(!tabsPanelVisible);
-    };
+	const openCloseTabs = () => {
+		console.log('openCloseTabs')
+		setTabsPanelVisible(!tabsPanelVisible)
+	}
 
-    return (
-        <div id="commonNavBar"
-             onMouseLeave={() => setTabsPanelVisible(false)}
-             className={(!isHeaderVisible) ? `${styles.displayNone} ${styles.commonNavBar}` : `${styles.commonNavBar}`}>
+	return (
+		<div
+			id='commonNavBar'
+			onMouseLeave={() => setTabsPanelVisible(false)}
+			className={
+				!isHeaderVisible
+					? `${styles.displayNone} ${styles.commonNavBar}`
+					: `${styles.commonNavBar}`
+			}
+		>
+			<TopNavBar topNavBarHide={topNavBarHide} />
+			<BottomNavBar openCloseTabs={openCloseTabs} />
+			<TabsPanel tabsPanelVisible={true} />
+		</div>
+	)
+}
 
-            <TopNavBar topNavBarHide={topNavBarHide}/>
-            <BottomNavBar openCloseTabs={openCloseTabs}/>
-            <TabsPanel tabsPanelVisible={tabsPanelVisible}/>
-
-        </div>)
-};
-
-export default Header;
-
-
+export default Header

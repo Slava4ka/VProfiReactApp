@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabsPanel/_column.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/additional_data/ProfilesList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/AllSpecializations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/AllSpecializations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MyButtonsGroup/MyButtonsGroup.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MyButtonsGroup/MyButtonsGroup.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/SpecialtySpecialization.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/SpecialtySpecialization.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forTesting/SassTesting/SassTesting.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forTesting/SassTesting/SassTesting.module.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forTesting/SassTesting/ScssTesting.module.scss" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +186,9 @@
       <workItem from="1576158982863" duration="225000" />
       <workItem from="1576497928098" duration="896000" />
       <workItem from="1576783018988" duration="235000" />
-      <workItem from="1576787382882" duration="19776000" />
+      <workItem from="1576787382882" duration="21877000" />
+      <workItem from="1577053334280" duration="525000" />
+      <workItem from="1577056555911" duration="4931000" />
     </task>
     <servers />
   </component>
