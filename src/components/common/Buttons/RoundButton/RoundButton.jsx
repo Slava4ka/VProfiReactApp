@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './RoundButton.module.scss'
 
-const RoundButton = ({ title, size = 'medium', onClick }) => {
+const RoundButton = ({ title, size = 'medium', onClick, disabled = false }) => {
 	const roundButtonSize =
 		size === 'big'
 			? style.big
@@ -12,6 +12,7 @@ const RoundButton = ({ title, size = 'medium', onClick }) => {
 			: style.medium
 	return (
 		<button
+			disabled={disabled}
 			type='button'
 			className={`${style.RoundButton} ${roundButtonSize}`}
 			onClick={onClick}

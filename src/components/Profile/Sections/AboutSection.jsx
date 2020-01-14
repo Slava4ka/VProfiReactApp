@@ -11,7 +11,8 @@ import { GoUnverified, GoVerified } from 'react-icons/go'
 
 const AboutSection = ({
 	verified = true,
-	showModal,
+	showPhoneModal,
+	showReviewsModal,
 	avatar,
 	fullName,
 	descriptionText,
@@ -20,7 +21,6 @@ const AboutSection = ({
 	commentsCounter,
 	photos,
 }) => {
-	console.log('showModal', showModal)
 	return (
 		<div className={`${style.aboutSection} ${style.Card}`}>
 			<div className={`${style.header} ${style.header_margin}`}>
@@ -72,7 +72,11 @@ const AboutSection = ({
 					<Col sm={12} md={12} lg={4} xl={5}>
 						<div className={style.about}>
 							<div className={style.about__writeReview}>
-								<RoundButton title={'Написать отзыв'} size={'medium'} />
+								<RoundButton
+									title={'Написать отзыв'}
+									size={'medium'}
+									onClick={() => showReviewsModal(true)}
+								/>
 							</div>
 							<div className={style.about__organizationName}>
 								ООО "ВайнахПрофи Инкорпорейтед"
@@ -88,7 +92,7 @@ const AboutSection = ({
 							<div className={style.about__telephoneNumber}>
 								<TelephoneButton
 									title={'Записаться по телефону'}
-									action={showModal}
+									action={() => showPhoneModal(true)}
 								/>
 							</div>
 						</div>

@@ -2,67 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc4578-cc1d-4895-9651-dd7a9c656a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/DragAndDrop.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Sections/AboutSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Sections/AddressesSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Sections/CommentsSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Sections/ContactsSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Sections/EducationSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Sections/PhotoPortfolio.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Sections/PricesAndServices.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Buttons/MyButtonsGroup/Аннотация 2020-01-13 153924.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Buttons/RoundButton/RoundButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Buttons/RoundButton/RoundButton.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Buttons/RoundButton/Аннотация 2020-01-13 171728.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Buttons/TelephoneButton/TelephoneButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Buttons/TelephoneButton/TelephoneButton.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/ImageSlider/ImageSlider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/ImageSlider/ImageSlider.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Modals/PhoneNumber/TelephoneNumberModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Modals/PhoneNumber/TelephoneNumberModal.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Modals/Reviews/Revies.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Modals/Reviews/Reviews.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/RatingAndCommentCounter/RatingAndCommentCounter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/RatingAndCommentCounter/RatingAndCommentCounter.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/RatingAndCommentCounter/Аннотация 2020-01-13 152628.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Styles/_DividerGap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Styles/_Flexing.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Styles/_Links.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Text/Text.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Text/Text.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/Slick/Responsive.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/drapAndDrop/DND.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTesting/drapAndDrop/DND.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validators/linkValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MarkSetter/Effect.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MarkSetter/MarkSetter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MarkSetter/MarkSetter.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MarkSetter/Аннотация 2020-01-14 234914.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Modals/Reviews/Rev.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Modals/Reviews/ReviewsModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Modals/Reviews/Аннотация 2020-01-14 234951.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Styles/_Text.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfileItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilesList/ProfilesList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignInForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignUp/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/SignUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignUp/SignUpForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/SignUpForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/AllSpecializations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/AllSpecializations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/SpecialtySpecialization.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/SpecialtySpecialization.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/TabsPanel.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsPanel/_column.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPanel/_column.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Breadcrumbs/Breadcrumbs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Breadcrumbs/Breadcrumbs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MyButtonsGroup/MyButtonsGroup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Buttons/MyButtonsGroup/MyButtonsGroup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MyButtonsGroup/MyButtonsGroup.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Buttons/MyButtonsGroup/MyButtonsGroup.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forTesting/Slick/SimpleSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/Slick/SimpleSlider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forTesting/Slick/Slick.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/forTesting/Slick/Slick.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Sections/AboutSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Sections/AboutSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Buttons/RoundButton/RoundButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Buttons/RoundButton/RoundButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Buttons/RoundButton/RoundButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Buttons/RoundButton/RoundButton.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Modals/Reviews/Revies.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Modals/Reviews/Revies.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Modals/Reviews/Reviews.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/RoundButton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/Modals/Reviews" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -106,11 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\components\common\Modals\Reviews" />
+      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\components\common\MarkSetter" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\components\common\RoundButton" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\components\common\MyButtonsGroup" />
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\components\common\RatingAndCommentCounter" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\public\avatars" />
-      <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\redux\reducers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Slava\WebstormProjects\vprofiapp\src\components\common\Modals\PhoneNumber" />
@@ -177,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.stringTesting.js" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="Node.js.stringTesting.js" />
         <item itemvalue="Node.js.linkValidator.js" />
         <item itemvalue="Node.js.ttt.js" />
         <item itemvalue="npm.eslint-check" />
@@ -254,7 +210,7 @@
       <workItem from="1577313802550" duration="21522000" />
       <workItem from="1577562724473" duration="488000" />
       <workItem from="1578696235926" duration="4777000" />
-      <workItem from="1578910939537" duration="24189000" />
+      <workItem from="1578910939537" duration="40821000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,27 @@
+@import "../Styles/Flexing.module";
+
+.markSetter {
+  @include flexing();
+  margin: 20px 0 20px 0;
+}
+
+.mark {
+  @include flexing(row, nowrap, center, center);
+
+  cursor: pointer;
+
+  border: 1px solid black;
+  border-radius: 50%;
+
+  width: 30px;
+  height: 30px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

@@ -21,6 +21,10 @@
   &:active {
     background-color: #f3f1ed;
   }
+
+  &:disabled{
+    background: darkgrey;
+  }
 }
 
 .big {

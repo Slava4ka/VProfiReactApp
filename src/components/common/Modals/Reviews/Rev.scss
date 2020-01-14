@@ -1,0 +1,20 @@
+.modal-content {
+  border: 0 none;
+  border-radius: 24px;
+}
+
+.modal-header {
+  border-bottom: 0 none;
+  padding-left: 28px;
+  padding-bottom: 4px;
+}
+
+.modal-body{
+  padding: 16px 24px 24px 24px;
+}
+
+.comment textarea:focus {
+  border-color: rgb(50, 148, 63) !important;
+  border-width: 2px;
+  box-shadow: none;
+}
