@@ -30,7 +30,7 @@ const Header = ({ isHeaderVisible }) => {
 	const [tabsPanelVisible, setTabsPanelVisible] = useState(false)
 
 	const openCloseTabs = () => {
-		console.log('openCloseTabs')
+		console.log('Open / Close Tabs')
 		setTabsPanelVisible(!tabsPanelVisible)
 	}
 
@@ -46,7 +46,7 @@ const Header = ({ isHeaderVisible }) => {
 		>
 			<TopNavBar topNavBarHide={topNavBarHide} />
 			<BottomNavBar openCloseTabs={openCloseTabs} />
-			<TabsPanel tabsPanelVisible={true} />
+			<TabsPanel tabsPanelVisible={tabsPanelVisible} />
 		</div>
 	)
 }

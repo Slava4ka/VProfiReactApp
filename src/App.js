@@ -19,6 +19,8 @@ import { SuccessAlert } from './components/common/Alerts/Alerts'
 import { setStatusToNewUserAlert } from './redux/reducers/signUpAndIn-reducer'
 import Catalog from './forTesting/Сatalog/Сatalog'
 import ProfilesList from './components/ProfilesList/ProfilesList'
+import Profile from './components/Profile/Profile'
+import DND from './forTesting/drapAndDrop/DND'
 
 function App({ initialized, newUserAlert, setStatusToNewUserAlert }) {
 	const [isHeaderVisible, setIsHeaderVisible] = useState(true)
@@ -64,6 +66,8 @@ function App({ initialized, newUserAlert, setStatusToNewUserAlert }) {
 
 					<Route path={'/profiles'} render={() => <ProfilesList />} />
 
+					<Route path={'/profile/:userId?'} render={() => <Profile />} />
+
 					{/*тестирование*/}
 					<Route path={'/carousel'} render={() => <CarouselTest />} />
 					<Route path={'/toasts'} render={() => <ToastsTesting />} />
@@ -71,7 +75,7 @@ function App({ initialized, newUserAlert, setStatusToNewUserAlert }) {
 					<Route path={'/index'} render={() => <Main />} />
 					<Route path={'/scroll'} render={() => <ScrollPage />} />
 					<Route path={'/catalog'} render={() => <Catalog />} />
-
+					<Route path={'/dnd'} render={() => <DND />} />
 
 					{newUserAlert && (
 						<SuccessAlert

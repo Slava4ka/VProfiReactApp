@@ -1,0 +1,30 @@
+@import "../Styles/Flexing.module";
+
+.RatingAndCommentCounter{
+  @include flexing();
+
+  .rating, .commentsCounter {
+    @include flexing(column);
+  }
+
+  .rating {
+    text-align: center;
+    border-right: 1px solid #4F4F4F;
+    padding-right: 10px;
+  }
+
+  .commentsCounter {
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  .count {
+    font-weight: 700;
+    font-size: 22pt;
+    color: rgb(50, 148, 63)
+  }
+
+  .label {
+    color: #4F4F4F;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import style from './TabsPanel.module.css'
+import style from './TabsPanel.module.scss'
 import { Col, Container, Row } from 'react-bootstrap'
 import { IoIosArrowForward } from 'react-icons/io'
 import { TiArrowLeftThick } from 'react-icons/ti'
@@ -57,7 +57,9 @@ const TabsPanel = ({ tabsPanelVisible }) => {
 	return (
 		<div
 			className={`${style.tabsPanel} ${
-				tabsPanelVisible ? style.tabsPanelOpen : style.tabsPanelHidden
+				tabsPanelVisible
+					? style.tabsPanel_tabsPanelOpen
+					: style.tabsPanel_tabsPanelHidden
 			}`}
 		>
 			<Container fluid={true} className={style.container}>
@@ -69,7 +71,7 @@ const TabsPanel = ({ tabsPanelVisible }) => {
 									key={index}
 									className={`${style.tab} ${
 										direction.id === currentTabsState.currentDirection.id
-											? style.tabHover
+											? style.tab_tabHover
 											: ''
 									}`}
 									onMouseEnter={() => directionHover(direction.id)}

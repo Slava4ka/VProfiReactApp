@@ -2,7 +2,6 @@ import React from 'react'
 import style from './Breadcrumbs.module.scss'
 import { FiChevronRight } from 'react-icons/fi'
 
-
 /**
  *
  * @param crumbs (name, link)

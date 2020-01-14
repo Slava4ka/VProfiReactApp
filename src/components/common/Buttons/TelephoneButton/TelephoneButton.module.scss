@@ -1,0 +1,21 @@
+.TelephoneButton {
+  height: 44px;
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 600;
+
+  background-color: #5cda6c;
+  border: none;
+  outline: none;
+
+  &:hover{
+    background-color: #41c151;
+  }
+  &:active{
+    background-color: #1c902b;
+  }
+}
+
+.text {
+  margin-left: 8px;
+}

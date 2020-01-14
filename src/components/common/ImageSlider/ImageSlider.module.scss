@@ -1,0 +1,17 @@
+.slider {
+
+  button::before {
+    color: #00671E;
+  }
+}
+
+.photo {
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    max-width: 200px;
+    max-height: 210px;
+  }
+}

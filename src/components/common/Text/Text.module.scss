@@ -1,0 +1,10 @@
+@import "../Styles/Links.module";
+
+.text {
+  cursor: text;
+  overflow-wrap: break-word;
+}
+
+.linkInText{
+  @include textLink()
+}

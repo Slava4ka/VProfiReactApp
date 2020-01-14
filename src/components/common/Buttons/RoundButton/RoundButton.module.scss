@@ -1,0 +1,43 @@
+.RoundButton {
+  color: #333 !important;
+  font-weight: bold;
+  border-radius: 30px !important;
+  background-color: transparent;
+
+  border: 2px solid rgba(0, 0, 0, .2) !important;
+
+  transition: .1s ease-out;
+  transition-property: border-color, border-width, background-color;
+
+  &:hover {
+    border: 2px solid rgba(0, 0, 0, .3);
+  }
+
+  &:focus {
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, .5);
+  }
+
+  &:active {
+    background-color: #f3f1ed;
+  }
+}
+
+.big {
+  font-size: 24px;
+  line-height: 40px;
+  padding: 12px 40px;
+}
+
+.medium {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 0 20px 2px;
+}
+
+.small {
+  font-size: 16px;
+  line-height: 32px;
+  padding: 2px 12px;
+}

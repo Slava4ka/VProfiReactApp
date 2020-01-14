@@ -19,7 +19,7 @@ max-device-width — условие «истина», когда размер э
 @media only screen and (min-device-width: 1px) and (max-device-width: 399px) {
   .specialty {
     width: 99%;
-    text-align: center;
+    text-align: left;
   }
 
   .allSpecializations {
@@ -31,7 +31,7 @@ max-device-width — условие «истина», когда размер э
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   .specialty {
     width: 99%;
-    text-align: center;
+    text-align: left;
   }
 
   .allSpecializations {
@@ -54,7 +54,7 @@ max-device-width — условие «истина», когда размер э
 @media only screen and (min-width: 321px) {
   .specialty {
     width: 99%;
-    text-align: center;
+    text-align: left;
   }
 
   .allSpecializations{
@@ -66,7 +66,7 @@ max-device-width — условие «истина», когда размер э
 @media only screen and (max-width: 320px) {
   .specialty {
     width: 99%;
-    text-align: center;
+    text-align: left;
   }
 
   .allSpecializations{
@@ -136,5 +136,14 @@ max-device-width — условие «истина», когда размер э
 
   .allSpecializations{
     column-count: 4;
+  }
+}
+
+
+
+//templ
+@media screen and (min-width: 768px) {
+  .categories {
+    float: right;
   }
 }

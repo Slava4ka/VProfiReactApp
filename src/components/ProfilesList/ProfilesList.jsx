@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './ProfilesList.module.scss'
 import { Col, Container, Row } from 'react-bootstrap'
 import ProfileItem from './ProfileItem'
-import MyButtonsGroup from '../common/MyButtonsGroup/MyButtonsGroup'
+import MyButtonsGroup from '../common/Buttons/MyButtonsGroup/MyButtonsGroup'
 import Breadcrumbs from '../common/Breadcrumbs/Breadcrumbs'
 
 const ProfilesList = () => {

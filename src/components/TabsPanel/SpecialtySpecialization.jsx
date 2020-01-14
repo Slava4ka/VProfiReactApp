@@ -1,6 +1,5 @@
 import React from 'react'
-import style from './TabsPanel.module.css'
-import style2 from './_column.module.scss'
+import style from './TabsPanel.module.scss'
 
 const SpecialtySpecialization = ({
 	currentTabsState,
@@ -45,7 +44,7 @@ const SpecialtySpecialization = ({
 	return (
 		<>
 			{currentTabsState.currentSpecialty.map((specialty, index) => (
-				<div className={`${style.specialty} ${style2.specialty}`} key={index}>
+				<div className={`${style.specialty} ${style.specialty}`} key={index}>
 					<div className={style.specialtyName}>
 						<a href='#'>{specialty.name}</a>
 					</div>

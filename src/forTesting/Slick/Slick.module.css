@@ -14,3 +14,7 @@
 .category {
     text-align: center;
 }
+
+.bodyOfSlick button::before{
+    color: #00671E;
+}

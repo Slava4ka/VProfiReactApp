@@ -1,10 +1,4 @@
-@mixin flexing($flexDirection: row, $flexWrap: wrap, $alignItems: flex-start,  $justifyContent: flex-start) {
-  display: flex;
-  flex-wrap: $flexWrap;
-  flex-direction: $flexDirection;
-  align-items: $alignItems;
-  justify-content: $justifyContent;
-}
+@import "../common/Styles/Flexing.module";
 
 .profile {
   margin: 10px 10px 0 10px;
@@ -64,29 +58,7 @@
   }
 
   .ratingAndCommentCounterBox {
-    margin-top: 30px;
-    @include flexing();
-
-    .rating, .commentsCounter {
-      @include flexing(column);
-    }
-
-    .rating {
-      text-align: center;
-      border-right: 1px solid #4F4F4F;
-      padding-right: 10px;
-    }
-
-    .commentsCounter {
-      text-align: center;
-      padding-left: 10px;
-    }
-
-    .count {
-      font-weight: 700;
-      font-size: 22pt;
-      color: rgb(50, 148, 63)
-    }
+    margin-top: 28px;
   }
 }
 
