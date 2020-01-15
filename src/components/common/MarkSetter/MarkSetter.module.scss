@@ -9,19 +9,26 @@
   @include flexing(row, nowrap, center, center);
 
   cursor: pointer;
+  user-select: none;
 
   border: 1px solid black;
   border-radius: 50%;
 
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
 
   font-size: 20px;
   font-weight: 700;
 
   margin-right: 10px;
 
+  background: transparent;
+
   &:last-child {
     margin-right: 0;
+  }
+
+  &:focus{
+    outline: none;
   }
 }

@@ -15,7 +15,7 @@ const MarkSetter = ({ Count = 5 }) => {
 	return (
 		<div className={style.markSetter}>
 			{marksCount.map(mc => (
-				<div
+				<button
 					key={`MaRk_setter_${mc}_key`}
 					className={`${style.mark} ${effectStyle.hoverShadow} ${
 						active === mc ? effectStyle.active : ''
@@ -23,7 +23,7 @@ const MarkSetter = ({ Count = 5 }) => {
 					onClick={() => setActive(mc)}
 				>
 					{mc}
-				</div>
+				</button>
 			))}
 		</div>
 	)

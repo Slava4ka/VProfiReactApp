@@ -14,6 +14,12 @@
   &:active{
     background-color: #1c902b;
   }
+
+  //media 520
+  @media screen and (max-width: 520px) {
+    height: auto;
+    line-height: 28px;
+  }
 }
 
 .text {
