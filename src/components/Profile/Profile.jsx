@@ -15,7 +15,7 @@ import ReviewsModal from '../common/Modals/Reviews/ReviewsModal'
 
 const Profile = props => {
 	const [phoneModalShow, setPhoneModalShow] = useState(false)
-	const [reviewsModalShow, setReviewsModalShow] = useState(true)
+	const [reviewsModalShow, setReviewsModalShow] = useState(false)
 
 	console.log('входные параметры', props)
 

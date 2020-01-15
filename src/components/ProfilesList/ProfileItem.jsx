@@ -2,7 +2,7 @@ import React from 'react'
 import style from './ProfileItem.module.scss'
 import { FiUser } from 'react-icons/fi'
 import { Col, Container, Row } from 'react-bootstrap'
-import RatingAndCommentCounter from "../common/RatingAndCommentCounter/RatingAndCommentCounter";
+import RatingAndCommentCounter from '../common/RatingAndCommentCounter/RatingAndCommentCounter'
 
 const ProfileItem = ({ isLoaded }) => {
 	return (
@@ -32,7 +32,10 @@ const ProfileItem = ({ isLoaded }) => {
 							</div>
 
 							<div className={style.ratingAndCommentCounterBox}>
-								<RatingAndCommentCounter rating={'5,0'} commentsCounter={'98'} />
+								<RatingAndCommentCounter
+									rating={'5,0'}
+									commentsCounter={'98'}
+								/>
 							</div>
 						</div>
 					</Col>
